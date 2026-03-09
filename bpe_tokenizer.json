@@ -1,0 +1,10093 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "<s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "</s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<unk>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<pad>": 0,
+      "<unk>": 1,
+      "<s>": 2,
+      "</s>": 3,
+      "(": 4,
+      ")": 5,
+      ",": 6,
+      "-": 7,
+      ".": 8,
+      "1": 9,
+      "2": 10,
+      "4": 11,
+      "A": 12,
+      "C": 13,
+      "D": 14,
+      "E": 15,
+      "F": 16,
+      "G": 17,
+      "I": 18,
+      "J": 19,
+      "L": 20,
+      "M": 21,
+      "O": 22,
+      "P": 23,
+      "Q": 24,
+      "R": 25,
+      "S": 26,
+      "T": 27,
+      "U": 28,
+      "V": 29,
+      "X": 30,
+      "a": 31,
+      "b": 32,
+      "c": 33,
+      "d": 34,
+      "e": 35,
+      "f": 36,
+      "g": 37,
+      "h": 38,
+      "i": 39,
+      "j": 40,
+      "k": 41,
+      "l": 42,
+      "m": 43,
+      "n": 44,
+      "o": 45,
+      "p": 46,
+      "q": 47,
+      "r": 48,
+      "s": 49,
+      "t": 50,
+      "u": 51,
+      "v": 52,
+      "w": 53,
+      "x": 54,
+      "y": 55,
+      "z": 56,
+      "à": 57,
+      "á": 58,
+      "â": 59,
+      "ã": 60,
+      "ç": 61,
+      "é": 62,
+      "ê": 63,
+      "í": 64,
+      "ó": 65,
+      "ô": 66,
+      "õ": 67,
+      "ú": 68,
+      "﻿": 69,
+      "de": 70,
+      "as": 71,
+      "re": 72,
+      "ra": 73,
+      "os": 74,
+      "nt": 75,
+      "co": 76,
+      "es": 77,
+      "ri": 78,
+      "do": 79,
+      "um": 80,
+      "ci": 81,
+      "em": 82,
+      "da": 83,
+      "is": 84,
+      "Um": 85,
+      "ta": 86,
+      "ca": 87,
+      "pa": 88,
+      "ti": 89,
+      "en": 90,
+      "og": 91,
+      "ent": 92,
+      "an": 93,
+      "er": 94,
+      "qu": 95,
+      "com": 96,
+      "ar": 97,
+      "on": 98,
+      "ão": 99,
+      "te": 100,
+      "al": 101,
+      "in": 102,
+      "la": 103,
+      "jog": 104,
+      "or": 105,
+      "jogo": 106,
+      "ere": 107,
+      "nci": 108,
+      "res": 109,
+      "im": 110,
+      "des": 111,
+      "uma": 112,
+      "para": 113,
+      "tr": 114,
+      "ção": 115,
+      "erenci": 116,
+      "ol": 117,
+      "se": 118,
+      "vi": 119,
+      "pe": 120,
+      "di": 121,
+      "li": 122,
+      "ua": 123,
+      "ex": 124,
+      "ma": 125,
+      "ro": 126,
+      "gi": 127,
+      "ula": 128,
+      "gerenci": 129,
+      "po": 130,
+      "us": 131,
+      "lo": 132,
+      "que": 133,
+      "ment": 134,
+      "ist": 135,
+      "at": 136,
+      "ant": 137,
+      "me": 138,
+      "ndo": 139,
+      "vo": 140,
+      "to": 141,
+      "ur": 142,
+      "dor": 143,
+      "ando": 144,
+      "das": 145,
+      "so": 146,
+      "sim": 147,
+      "onde": 148,
+      "simula": 149,
+      "dos": 150,
+      "ve": 151,
+      "cas": 152,
+      "ha": 153,
+      "ns": 154,
+      "dade": 155,
+      "simulador": 156,
+      "ba": 157,
+      "bra": 158,
+      "ura": 159,
+      "áti": 160,
+      "ça": 161,
+      "ais": 162,
+      "mi": 163,
+      "su": 164,
+      "ões": 165,
+      "cê": 166,
+      "mo": 167,
+      "ni": 168,
+      "no": 169,
+      "pri": 170,
+      "tem": 171,
+      "cos": 172,
+      "ei": 173,
+      "has": 174,
+      "lu": 175,
+      "mu": 176,
+      "mas": 177,
+      "tra": 178,
+      "va": 179,
+      "trua": 180,
+      "você": 181,
+      "ação": 182,
+      "cri": 183,
+      "na": 184,
+      "plo": 185,
+      "ue": 186,
+      "cons": 187,
+      "be": 188,
+      "bi": 189,
+      "cu": 190,
+      "fi": 191,
+      "pl": 192,
+      "ras": 193,
+      "ros": 194,
+      "tas": 195,
+      "tempo": 196,
+      "Con": 197,
+      "PG": 198,
+      "RPG": 199,
+      "av": 200,
+      "ament": 201,
+      "ce": 202,
+      "for": 203,
+      "ia": 204,
+      "lhas": 205,
+      "min": 206,
+      "tre": 207,
+      "táti": 208,
+      "real": 209,
+      "nte": 210,
+      "ntra": 211,
+      "gerencie": 212,
+      "quebra": 213,
+      "mundo": 214,
+      "ado": 215,
+      "bas": 216,
+      "ete": 217,
+      "fa": 218,
+      "ne": 219,
+      "strua": 220,
+      "ver": 221,
+      "ças": 222,
+      "ções": 223,
+      "ntes": 224,
+      "col": 225,
+      "contra": 226,
+      "espa": 227,
+      "estra": 228,
+      "rig": 229,
+      "dades": 230,
+      "ista": 231,
+      "tar": 232,
+      "cabe": 233,
+      "ogue": 234,
+      "ali": 235,
+      "seus": 236,
+      "gia": 237,
+      "Construa": 238,
+      "avent": 239,
+      "amento": 240,
+      "Gerenci": 241,
+      "ab": 242,
+      "ag": 243,
+      "ch": 244,
+      "cur": 245,
+      "fu": 246,
+      "ga": 247,
+      "ig": 248,
+      "má": 249,
+      "pes": 250,
+      "pro": 251,
+      "sua": 252,
+      "té": 253,
+      "tri": 254,
+      "ter": 255,
+      "vas": 256,
+      "ári": 257,
+      "éri": 258,
+      "óri": 259,
+      "cidade": 260,
+      "entes": 261,
+      "como": 262,
+      "explo": 263,
+      "gerenciando": 264,
+      "sob": 265,
+      "Gerencie": 266,
+      "curs": 267,
+      "Co": 268,
+      "el": 269,
+      "equ": 270,
+      "evi": 271,
+      "fant": 272,
+      "ira": 273,
+      "int": 274,
+      "ipa": 275,
+      "los": 276,
+      "mist": 277,
+      "pla": 278,
+      "por": 279,
+      "si": 280,
+      "são": 281,
+      "tes": 282,
+      "ze": 283,
+      "ós": 284,
+      "der": 285,
+      "recurs": 286,
+      "cor": 287,
+      "ens": 288,
+      "enda": 289,
+      "resol": 290,
+      "tru": 291,
+      "gico": 292,
+      "gerenciamento": 293,
+      "mentos": 294,
+      "espaci": 295,
+      "estraté": 296,
+      "explora": 297,
+      "equipa": 298,
+      "fantas": 299,
+      "recursos": 300,
+      "Col": 301,
+      "Jogue": 302,
+      "Li": 303,
+      "ada": 304,
+      "dra": 305,
+      "fe": 306,
+      "fo": 307,
+      "fre": 308,
+      "ge": 309,
+      "gu": 310,
+      "gen": 311,
+      "hist": 312,
+      "ita": 313,
+      "ja": 314,
+      "lti": 315,
+      "lha": 316,
+      "mor": 317,
+      "per": 318,
+      "pres": 319,
+      "ru": 320,
+      "ênci": 321,
+      "def": 322,
+      "dere": 323,
+      "deve": 324,
+      "cado": 325,
+      "par": 326,
+      "tivo": 327,
+      "ani": 328,
+      "comba": 329,
+      "arte": 330,
+      "alta": 331,
+      "olog": 332,
+      "seu": 333,
+      "pera": 334,
+      "ante": 335,
+      "uras": 336,
+      "som": 337,
+      "tático": 338,
+      "cabeça": 339,
+      "aventura": 340,
+      "estratégia": 341,
+      "equipamentos": 342,
+      "Lidere": 343,
+      "históri": 344,
+      "combate": 345,
+      "Ex": 346,
+      "Pro": 347,
+      "cl": 348,
+      "cen": 349,
+      "eta": 350,
+      "fere": 351,
+      "go": 352,
+      "ida": 353,
+      "mí": 354,
+      "pos": 355,
+      "pol": 356,
+      "pula": 357,
+      "tos": 358,
+      "ure": 359,
+      "zo": 360,
+      "zação": 361,
+      "ígen": 362,
+      "ógico": 363,
+      "ôni": 364,
+      "ass": 365,
+      "ral": 366,
+      "rav": 367,
+      "osos": 368,
+      "esca": 369,
+      "esti": 370,
+      "ridas": 371,
+      "civi": 372,
+      "tafor": 373,
+      "tici": 374,
+      "enígen": 375,
+      "ente": 376,
+      "ana": 377,
+      "ano": 378,
+      "anim": 379,
+      "erra": 380,
+      "erto": 381,
+      "quis": 382,
+      "compl": 383,
+      "arma": 384,
+      "inf": 385,
+      "resga": 386,
+      "iment": 387,
+      "tro": 388,
+      "tró": 389,
+      "vida": 390,
+      "vidade": 391,
+      "perig": 392,
+      "dilhas": 393,
+      "pode": 394,
+      "aturas": 395,
+      "meira": 396,
+      "bata": 397,
+      "ural": 398,
+      "suas": 399,
+      "criaturas": 400,
+      "plore": 401,
+      "construa": 402,
+      "plan": 403,
+      "realista": 404,
+      "base": 405,
+      "alienígen": 406,
+      "mági": 407,
+      "sobre": 408,
+      "inter": 409,
+      "mistéri": 410,
+      "platafor": 411,
+      "espacial": 412,
+      "Colete": 413,
+      "focado": 414,
+      "frente": 415,
+      "ência": 416,
+      "ologia": 417,
+      "Explore": 418,
+      "posi": 419,
+      "pulação": 420,
+      "complex": 421,
+      "armadilhas": 422,
+      "plataforma": 423,
+      "2D": 424,
+      "Ad": 425,
+      "As": 426,
+      "In": 427,
+      "Par": 428,
+      "Use": 429,
+      "am": 430,
+      "ap": 431,
+      "aé": 432,
+      "apri": 433,
+      "bo": 434,
+      "bri": 435,
+      "bua": 436,
+      "bus": 437,
+      "bras": 438,
+      "cn": 439,
+      "câ": 440,
+      "cre": 441,
+      "dis": 442,
+      "din": 443,
+      "dári": 444,
+      "dural": 445,
+      "eg": 446,
+      "fí": 447,
+      "gant": 448,
+      "gani": 449,
+      "her": 450,
+      "ix": 451,
+      "jete": 452,
+      "le": 453,
+      "len": 454,
+      "mer": 455,
+      "mar": 456,
+      "nas": 457,
+      "nos": 458,
+      "nda": 459,
+      "pr": 460,
+      "rogue": 461,
+      "suma": 462,
+      "tu": 463,
+      "tor": 464,
+      "uni": 465,
+      "var": 466,
+      "val": 467,
+      "viment": 468,
+      "xante": 469,
+      "zen": 470,
+      "ás": 471,
+      "ços": 472,
+      "és": 473,
+      "óis": 474,
+      "rede": 475,
+      "rein": 476,
+      "rela": 477,
+      "nta": 478,
+      "ntos": 479,
+      "esp": 480,
+      "ria": 481,
+      "ris": 482,
+      "rida": 483,
+      "ribua": 484,
+      "cie": 485,
+      "cion": 486,
+      "ement": 487,
+      "cal": 488,
+      "cade": 489,
+      "caça": 490,
+      "tica": 491,
+      "enqu": 492,
+      "enha": 493,
+      "quáti": 494,
+      "tecn": 495,
+      "ina": 496,
+      "resta": 497,
+      "descu": 498,
+      "ológico": 499,
+      "seg": 500,
+      "difere": 501,
+      "lidades": 502,
+      "lização": 503,
+      "mag": 504,
+      "mente": 505,
+      "istre": 506,
+      "atrav": 507,
+      "anto": 508,
+      "metró": 509,
+      "veis": 510,
+      "habi": 511,
+      "baquáti": 512,
+      "subaquáti": 513,
+      "moviment": 514,
+      "nica": 515,
+      "primeira": 516,
+      "luz": 517,
+      "luta": 518,
+      "masmor": 519,
+      "constru": 520,
+      "fica": 521,
+      "cedural": 522,
+      "mine": 523,
+      "ministre": 524,
+      "táticas": 525,
+      "adores": 526,
+      "nego": 527,
+      "cabeças": 528,
+      "aberto": 529,
+      "pesquis": 530,
+      "procedural": 531,
+      "tripulação": 532,
+      "terr": 533,
+      "Com": 534,
+      "element": 535,
+      "corrida": 536,
+      "resolva": 537,
+      "resolver": 538,
+      "exploração": 539,
+      "fantasia": 540,
+      "gui": 541,
+      "Projete": 542,
+      "cenári": 543,
+      "pole": 544,
+      "zoológico": 545,
+      "civilização": 546,
+      "ticipe": 547,
+      "animais": 548,
+      "perigos": 549,
+      "batalhas": 550,
+      "planeta": 551,
+      "alienígenas": 552,
+      "complexos": 553,
+      "Administre": 554,
+      "Assuma": 555,
+      "Participe": 556,
+      "ambi": 557,
+      "aére": 558,
+      "aprimo": 559,
+      "cânica": 560,
+      "gantes": 561,
+      "heróis": 562,
+      "lendári": 563,
+      "rogueli": 564,
+      "turis": 565,
+      "relaxante": 566,
+      "enquanto": 567,
+      "descubra": 568,
+      "diferentes": 569,
+      "através": 570,
+      "metrópole": 571,
+      "habilidades": 572,
+      ").": 573,
+      "Cu": 574,
+      "Cri": 575,
+      "FP": 576,
+      "Gu": 577,
+      "Pi": 578,
+      "Re": 579,
+      "Su": 580,
+      "ad": 581,
+      "aj": 582,
+      "ao": 583,
+      "are": 584,
+      "ame": 585,
+      "afi": 586,
+      "bu": 587,
+      "bô": 588,
+      "bos": 589,
+      "ban": 590,
+      "bar": 591,
+      "bli": 592,
+      "bro": 593,
+      "bterr": 594,
+      "cr": 595,
+      "cum": 596,
+      "cção": 597,
+      "cli": 598,
+      "cós": 599,
+      "dro": 600,
+      "due": 601,
+      "dge": 602,
+      "dbo": 603,
+      "ef": 604,
+      "fal": 605,
+      "flo": 606,
+      "fat": 607,
+      "fur": 608,
+      "fei": 609,
+      "flu": 610,
+      "féri": 611,
+      "ferra": 612,
+      "gra": 613,
+      "gon": 614,
+      "gua": 615,
+      "hi": 616,
+      "hum": 617,
+      "ir": 618,
+      "ico": 619,
+      "idade": 620,
+      "iros": 621,
+      "inte": 622,
+      "idades": 623,
+      "ilha": 624,
+      "itos": 625,
+      "je": 626,
+      "jo": 627,
+      "jar": 628,
+      "lin": 629,
+      "lva": 630,
+      "mú": 631,
+      "mos": 632,
+      "men": 633,
+      "mal": 634,
+      "né": 635,
+      "nção": 636,
+      "ndi": 637,
+      "nça": 638,
+      "nch": 639,
+      "ob": 640,
+      "ou": 641,
+      "ores": 642,
+      "oce": 643,
+      "pu": 644,
+      "pre": 645,
+      "pra": 646,
+      "pist": 647,
+      "pira": 648,
+      "pós": 649,
+      "pass": 650,
+      "rci": 651,
+      "sa": 652,
+      "sem": 653,
+      "san": 654,
+      "sal": 655,
+      "sist": 656,
+      "sões": 657,
+      "ts": 658,
+      "tá": 659,
+      "tum": 660,
+      "tur": 661,
+      "tura": 662,
+      "up": 663,
+      "uto": 664,
+      "vos": 665,
+      "ves": 666,
+      "vis": 667,
+      "ven": 668,
+      "vros": 669,
+      "vali": 670,
+      "venda": 671,
+      "água": 672,
+      "âne": 673,
+      "ço": 674,
+      "éci": 675,
+      "érci": 676,
+      "êni": 677,
+      "íp": 678,
+      "ínas": 679,
+      "íveis": 680,
+      "ífica": 681,
+      "ópri": 682,
+      "deus": 683,
+      "astre": 684,
+      "reg": 685,
+      "reção": 686,
+      "rada": 687,
+      "rais": 688,
+      "ração": 689,
+      "raros": 690,
+      "ntas": 691,
+      "cobri": 692,
+      "riais": 693,
+      "cient": 694,
+      "ciais": 695,
+      "cidades": 696,
+      "dando": 697,
+      "tais": 698,
+      "tagon": 699,
+      "cam": 700,
+      "caval": 701,
+      "canta": 702,
+      "pape": 703,
+      "tico": 704,
+      "ticas": 705,
+      "ticos": 706,
+      "tiva": 707,
+      "tividade": 708,
+      "tiços": 709,
+      "eno": 710,
+      "enig": 711,
+      "enfrente": 712,
+      "encanta": 713,
+      "ogra": 714,
+      "ques": 715,
+      "queno": 716,
+      "comida": 717,
+      "armas": 718,
+      "artes": 719,
+      "arcade": 720,
+      "teriais": 721,
+      "ing": 722,
+      "invas": 723,
+      "inita": 724,
+      "lado": 725,
+      "jogadores": 726,
+      "organi": 727,
+      "desvi": 728,
+      "desafi": 729,
+      "desastre": 730,
+      "descobri": 731,
+      "trô": 732,
+      "secre": 733,
+      "selva": 734,
+      "viv": 735,
+      "pedra": 736,
+      "peix": 737,
+      "pequeno": 738,
+      "dida": 739,
+      "didos": 740,
+      "direção": 741,
+      "lide": 742,
+      "licidade": 743,
+      "livros": 744,
+      "lidando": 745,
+      "expa": 746,
+      "exti": 747,
+      "extre": 748,
+      "exérci": 749,
+      "mais": 750,
+      "magia": 751,
+      "materiais": 752,
+      "robô": 753,
+      "gigantes": 754,
+      "usar": 755,
+      "usto": 756,
+      "usando": 757,
+      "lote": 758,
+      "locidade": 759,
+      "mentas": 760,
+      "até": 761,
+      "atribua": 762,
+      "atmos": 763,
+      "antig": 764,
+      "mecânica": 765,
+      "uros": 766,
+      "soa": 767,
+      "simulação": 768,
+      "velocidade": 769,
+      "nsfor": 770,
+      "ático": 771,
+      "mia": 772,
+      "mit": 773,
+      "micos": 774,
+      "mize": 775,
+      "super": 776,
+      "supera": 777,
+      "subterr": 778,
+      "moder": 779,
+      "moral": 780,
+      "temático": 781,
+      "eiro": 782,
+      "eiras": 783,
+      "eiros": 784,
+      "lute": 785,
+      "crie": 786,
+      "criar": 787,
+      "consta": 788,
+      "cuida": 789,
+      "ficção": 790,
+      "forja": 791,
+      "treina": 792,
+      "bases": 793,
+      "fazen": 794,
+      "colon": 795,
+      "rigo": 796,
+      "aventure": 797,
+      "abrigo": 798,
+      "agem": 799,
+      "agens": 800,
+      "fundo": 801,
+      "futuris": 802,
+      "gadge": 803,
+      "mágico": 804,
+      "pessoa": 805,
+      "profu": 806,
+      "protagon": 807,
+      "terra": 808,
+      "vasto": 809,
+      "evita": 810,
+      "evitar": 811,
+      "mistura": 812,
+      "plantas": 813,
+      "sico": 814,
+      "sica": 815,
+      "espaciais": 816,
+      "explorar": 817,
+      "fantasmas": 818,
+      "drag": 819,
+      "felicidade": 820,
+      "itantes": 821,
+      "ltive": 822,
+      "perdida": 823,
+      "pressão": 824,
+      "ruínas": 825,
+      "parque": 826,
+      "artefat": 827,
+      "sombra": 828,
+      "sombras": 829,
+      "história": 830,
+      "clás": 831,
+      "míticas": 832,
+      "ônicas": 833,
+      "assent": 834,
+      "infinita": 835,
+      "resgatar": 836,
+      "poderes": 837,
+      "baseado": 838,
+      "mágica": 839,
+      "mágicos": 840,
+      "sobreviv": 841,
+      "mistério": 842,
+      "mistérios": 843,
+      "posicion": 844,
+      "busca": 845,
+      "dinagem": 846,
+      "física": 847,
+      "mercenári": 848,
+      "própri": 849,
+      "torre": 850,
+      "espéci": 851,
+      "calor": 852,
+      "tecnologia": 853,
+      "movimentada": 854,
+      "masmorras": 855,
+      "negocie": 856,
+      "pesquise": 857,
+      "proceduralmente": 858,
+      "elementos": 859,
+      "ambient": 860,
+      "aéreos": 861,
+      "aprimore": 862,
+      "lendárias": 863,
+      "roguelite": 864,
+      "Cultive": 865,
+      "Crie": 866,
+      "FPS": 867,
+      "Pilote": 868,
+      "amea": 869,
+      "clientes": 870,
+      "cósmicos": 871,
+      "duelos": 872,
+      "dbox": 873,
+      "floresta": 874,
+      "furtividade": 875,
+      "feitiços": 876,
+      "férico": 877,
+      "ferramentas": 878,
+      "hidro": 879,
+      "intera": 880,
+      "jov": 881,
+      "jardinagem": 882,
+      "oceano": 883,
+      "sandbox": 884,
+      "sistem": 885,
+      "tumbas": 886,
+      "turnos": 887,
+      "visitantes": 888,
+      "valiosos": 889,
+      "deuses": 890,
+      "científica": 891,
+      "papel": 892,
+      "enigmas": 893,
+      "invasores": 894,
+      "desafios": 895,
+      "descobrir": 896,
+      "secretas": 897,
+      "peixes": 898,
+      "extremas": 899,
+      "exército": 900,
+      "robôs": 901,
+      "atmosférico": 902,
+      "subterrâne": 903,
+      "moderno": 904,
+      "aventureiros": 905,
+      "gadgets": 906,
+      "protagonista": 907,
+      "artefatos": 908,
+      "clássico": 909,
+      "espécies": 910,
+      "1v": 911,
+      "4X": 912,
+      "Ca": 913,
+      "Cor": 914,
+      "Cada": 915,
+      "Custo": 916,
+      "Des": 917,
+      "Dist": 918,
+      "Def": 919,
+      "En": 920,
+      "Es": 921,
+      "Ent": 922,
+      "Fre": 923,
+      "Ga": 924,
+      "Jon": 925,
+      "Jap": 926,
+      "Ma": 927,
+      "Mu": 928,
+      "Mant": 929,
+      "Mani": 930,
+      "Marte": 931,
+      "Or": 932,
+      "Oes": 933,
+      "Pu": 934,
+      "Pas": 935,
+      "Pes": 936,
+      "Pri": 937,
+      "Per": 938,
+      "Qua": 939,
+      "Res": 940,
+      "Rex": 941,
+      "Sa": 942,
+      "So": 943,
+      "Sir": 944,
+      "Tra": 945,
+      "Tor": 946,
+      "Trein": 947,
+      "Via": 948,
+      "Vel": 949,
+      "aco": 950,
+      "apa": 951,
+      "ares": 952,
+      "adi": 953,
+      "apo": 954,
+      "ador": 955,
+      "ados": 956,
+      "ave": 957,
+      "acos": 958,
+      "ava": 959,
+      "ativo": 960,
+      "aria": 961,
+      "acade": 962,
+      "auto": 963,
+      "ativa": 964,
+      "bis": 965,
+      "ber": 966,
+      "bon": 967,
+      "bor": 968,
+      "bula": 969,
+      "bru": 970,
+      "có": 971,
+      "ces": 972,
+      "cem": 973,
+      "cta": 974,
+      "cer": 975,
+      "cres": 976,
+      "cula": 977,
+      "cha": 978,
+      "chas": 979,
+      "cções": 980,
+      "cestra": 981,
+      "custo": 982,
+      "dr": 983,
+      "du": 984,
+      "dá": 985,
+      "dã": 986,
+      "dão": 987,
+      "dim": 988,
+      "dist": 989,
+      "dista": 990,
+      "dênci": 991,
+      "eu": 992,
+      "eco": 993,
+      "etr": 994,
+      "ecos": 995,
+      "efi": 996,
+      "etas": 997,
+      "etar": 998,
+      "etos": 999,
+      "eval": 1000,
+      "edu": 1001,
+      "fas": 1002,
+      "fos": 1003,
+      "fen": 1004,
+      "fog": 1005,
+      "fer": 1006,
+      "far": 1007,
+      "fav": 1008,
+      "gl": 1009,
+      "gos": 1010,
+      "gri": 1011,
+      "gum": 1012,
+      "gem": 1013,
+      "gan": 1014,
+      "gla": 1015,
+      "gres": 1016,
+      "gol": 1017,
+      "gação": 1018,
+      "gru": 1019,
+      "geiras": 1020,
+      "ho": 1021,
+      "hw": 1022,
+      "hos": 1023,
+      "hor": 1024,
+      "hando": 1025,
+      "hei": 1026,
+      "ie": 1027,
+      "il": 1028,
+      "it": 1029,
+      "ias": 1030,
+      "ica": 1031,
+      "ides": 1032,
+      "iro": 1033,
+      "idos": 1034,
+      "iba": 1035,
+      "iais": 1036,
+      "ilhas": 1037,
+      "iço": 1038,
+      "josos": 1039,
+      "ke": 1040,
+      "kk": 1041,
+      "king": 1042,
+      "ly": 1043,
+      "log": 1044,
+      "lan": 1045,
+      "lar": 1046,
+      "lões": 1047,
+      "ltra": 1048,
+      "lesti": 1049,
+      "lcânica": 1050,
+      "lêni": 1051,
+      "mes": 1052,
+      "mis": 1053,
+      "man": 1054,
+      "mon": 1055,
+      "mando": 1056,
+      "mbra": 1057,
+      "mali": 1058,
+      "mani": 1059,
+      "mesti": 1060,
+      "mana": 1061,
+      "nç": 1062,
+      "nde": 1063,
+      "nor": 1064,
+      "nat": 1065,
+      "ndos": 1066,
+      "nha": 1067,
+      "nhas": 1068,
+      "nques": 1069,
+      "nces": 1070,
+      "ngeiras": 1071,
+      "op": 1072,
+      "ox": 1073,
+      "ora": 1074,
+      "oti": 1075,
+      "ote": 1076,
+      "odos": 1077,
+      "omas": 1078,
+      "opres": 1079,
+      "opera": 1080,
+      "ofere": 1081,
+      "obras": 1082,
+      "olado": 1083,
+      "oides": 1084,
+      "pú": 1085,
+      "pas": 1086,
+      "pia": 1087,
+      "péri": 1088,
+      "psi": 1089,
+      "pita": 1090,
+      "pix": 1091,
+      "pico": 1092,
+      "ptura": 1093,
+      "pônicas": 1094,
+      "pica": 1095,
+      "rum": 1096,
+      "rog": 1097,
+      "ron": 1098,
+      "rão": 1099,
+      "rus": 1100,
+      "rni": 1101,
+      "rcu": 1102,
+      "rros": 1103,
+      "sy": 1104,
+      "só": 1105,
+      "sci": 1106,
+      "ser": 1107,
+      "son": 1108,
+      "ste": 1109,
+      "sor": 1110,
+      "sol": 1111,
+      "sus": 1112,
+      "sat": 1113,
+      "sab": 1114,
+      "stica": 1115,
+      "stá": 1116,
+      "sticos": 1117,
+      "tent": 1118,
+      "tão": 1119,
+      "tua": 1120,
+      "tíveis": 1121,
+      "ude": 1122,
+      "uda": 1123,
+      "use": 1124,
+      "una": 1125,
+      "ubos": 1126,
+      "uidades": 1127,
+      "uvos": 1128,
+      "ulcânica": 1129,
+      "vê": 1130,
+      "ví": 1131,
+      "vin": 1132,
+      "vol": 1133,
+      "vista": 1134,
+      "vante": 1135,
+      "vesti": 1136,
+      "vulcânica": 1137,
+      "wer": 1138,
+      "xo": 1139,
+      "xto": 1140,
+      "xad": 1141,
+      "xaria": 1142,
+      "za": 1143,
+      "zum": 1144,
+      "zer": 1145,
+      "zando": 1146,
+      "zenda": 1147,
+      "zada": 1148,
+      "às": 1149,
+      "áfe": 1150,
+      "áveis": 1151,
+      "ânt": 1152,
+      "épo": 1153,
+      "épica": 1154,
+      "ês": 1155,
+      "íri": 1156,
+      "ítica": 1157,
+      "íacos": 1158,
+      "íodos": 1159,
+      "ística": 1160,
+      "ógi": 1161,
+      "ópera": 1162,
+      "óticos": 1163,
+      "ópico": 1164,
+      "ômen": 1165,
+      "úde": 1166,
+      "últi": 1167,
+      "dete": 1168,
+      "dendo": 1169,
+      "dente": 1170,
+      "demon": 1171,
+      "asso": 1172,
+      "aster": 1173,
+      "asfal": 1174,
+      "assombra": 1175,
+      "rez": 1176,
+      "repa": 1177,
+      "repe": 1178,
+      "redi": 1179,
+      "redor": 1180,
+      "redos": 1181,
+      "repl": 1182,
+      "retas": 1183,
+      "renda": 1184,
+      "retrô": 1185,
+      "refas": 1186,
+      "raes": 1187,
+      "rado": 1188,
+      "rain": 1189,
+      "radi": 1190,
+      "raras": 1191,
+      "raças": 1192,
+      "rações": 1193,
+      "ranta": 1194,
+      "rajosos": 1195,
+      "oso": 1196,
+      "ossa": 1197,
+      "ntri": 1198,
+      "ntando": 1199,
+      "ntenha": 1200,
+      "nthw": 1201,
+      "colo": 1202,
+      "colhas": 1203,
+      "cone": 1204,
+      "cotes": 1205,
+      "contos": 1206,
+      "condi": 1207,
+      "coopera": 1208,
+      "corajosos": 1209,
+      "esa": 1210,
+      "esqu": 1211,
+      "espe": 1212,
+      "escas": 1213,
+      "escu": 1214,
+      "esté": 1215,
+      "esmag": 1216,
+      "está": 1217,
+      "escolhas": 1218,
+      "rias": 1219,
+      "rios": 1220,
+      "rique": 1221,
+      "rições": 1222,
+      "rintos": 1223,
+      "ridão": 1224,
+      "rinha": 1225,
+      "dores": 1226,
+      "domin": 1227,
+      "domine": 1228,
+      "docum": 1229,
+      "domesti": 1230,
+      "umina": 1231,
+      "cias": 1232,
+      "cida": 1233,
+      "ciando": 1234,
+      "ciças": 1235,
+      "ciali": 1236,
+      "ciente": 1237,
+      "ciber": 1238,
+      "circu": 1239,
+      "dados": 1240,
+      "danos": 1241,
+      "daria": 1242,
+      "dança": 1243,
+      "isfazen": 1244,
+      "isagens": 1245,
+      "iseu": 1246,
+      "isolado": 1247,
+      "Uma": 1248,
+      "tares": 1249,
+      "tades": 1250,
+      "tali": 1251,
+      "tabe": 1252,
+      "taver": 1253,
+      "taure": 1254,
+      "tamente": 1255,
+      "tanques": 1256,
+      "tarefas": 1257,
+      "cada": 1258,
+      "cais": 1259,
+      "cati": 1260,
+      "cação": 1261,
+      "cama": 1262,
+      "cando": 1263,
+      "camin": 1264,
+      "carav": 1265,
+      "cabro": 1266,
+      "canç": 1267,
+      "captura": 1268,
+      "carros": 1269,
+      "pando": 1270,
+      "pagantes": 1271,
+      "panhas": 1272,
+      "pacotes": 1273,
+      "padaria": 1274,
+      "paisagens": 1275,
+      "til": 1276,
+      "tino": 1277,
+      "titivo": 1278,
+      "tifica": 1279,
+      "tives": 1280,
+      "ticula": 1281,
+      "tigres": 1282,
+      "tizada": 1283,
+      "ener": 1284,
+      "encom": 1285,
+      "encontra": 1286,
+      "ender": 1287,
+      "enfre": 1288,
+      "engen": 1289,
+      "envol": 1290,
+      "endendo": 1291,
+      "entreg": 1292,
+      "ande": 1293,
+      "anat": 1294,
+      "ancestra": 1295,
+      "erta": 1296,
+      "erte": 1297,
+      "ersi": 1298,
+      "erup": 1299,
+      "quar": 1300,
+      "quin": 1301,
+      "quais": 1302,
+      "quente": 1303,
+      "quânt": 1304,
+      "compe": 1305,
+      "comando": 1306,
+      "combos": 1307,
+      "compra": 1308,
+      "art": 1309,
+      "ardi": 1310,
+      "ardas": 1311,
+      "arras": 1312,
+      "armar": 1313,
+      "ondas": 1314,
+      "onentes": 1315,
+      "onlin": 1316,
+      "onogra": 1317,
+      "telos": 1318,
+      "teja": 1319,
+      "texto": 1320,
+      "alto": 1321,
+      "aliment": 1322,
+      "algum": 1323,
+      "alcanç": 1324,
+      "inem": 1325,
+      "inim": 1326,
+      "infi": 1327,
+      "inamento": 1328,
+      "incurs": 1329,
+      "inuto": 1330,
+      "investi": 1331,
+      "inês": 1332,
+      "lada": 1333,
+      "lares": 1334,
+      "labi": 1335,
+      "ladr": 1336,
+      "lagos": 1337,
+      "jogador": 1338,
+      "ort": 1339,
+      "oroso": 1340,
+      "ortali": 1341,
+      "ereste": 1342,
+      "resist": 1343,
+      "resort": 1344,
+      "imáti": 1345,
+      "impéri": 1346,
+      "imersi": 1347,
+      "imortali": 1348,
+      "desde": 1349,
+      "desli": 1350,
+      "destru": 1351,
+      "deserto": 1352,
+      "destro": 1353,
+      "desenha": 1354,
+      "desvenda": 1355,
+      "destino": 1356,
+      "desenvol": 1357,
+      "deserta": 1358,
+      "paranor": 1359,
+      "trás": 1360,
+      "tráfe": 1361,
+      "oleiro": 1362,
+      "ológi": 1363,
+      "sez": 1364,
+      "secu": 1365,
+      "segui": 1366,
+      "vio": 1367,
+      "vir": 1368,
+      "vidos": 1369,
+      "viári": 1370,
+      "viaj": 1371,
+      "viking": 1372,
+      "vilões": 1373,
+      "peças": 1374,
+      "pelos": 1375,
+      "peitos": 1376,
+      "pedidos": 1377,
+      "dição": 1378,
+      "digi": 1379,
+      "dirig": 1380,
+      "diana": 1381,
+      "diadores": 1382,
+      "dieval": 1383,
+      "divin": 1384,
+      "lia": 1385,
+      "lir": 1386,
+      "litares": 1387,
+      "excê": 1388,
+      "exig": 1389,
+      "exposi": 1390,
+      "exiba": 1391,
+      "exóticos": 1392,
+      "mapa": 1393,
+      "mamu": 1394,
+      "mantenha": 1395,
+      "maciças": 1396,
+      "macabro": 1397,
+      "matizada": 1398,
+      "rotas": 1399,
+      "rotar": 1400,
+      "romana": 1401,
+      "roubos": 1402,
+      "roviári": 1403,
+      "gir": 1404,
+      "gias": 1405,
+      "gerencia": 1406,
+      "pous": 1407,
+      "poções": 1408,
+      "power": 1409,
+      "porações": 1410,
+      "usa": 1411,
+      "loja": 1412,
+      "locais": 1413,
+      "queie": 1414,
+      "mento": 1415,
+      "atrain": 1416,
+      "atendendo": 1417,
+      "mel": 1418,
+      "mece": 1419,
+      "mega": 1420,
+      "melha": 1421,
+      "metrô": 1422,
+      "mechas": 1423,
+      "meiro": 1424,
+      "medieval": 1425,
+      "voe": 1426,
+      "voado": 1427,
+      "topo": 1428,
+      "toque": 1429,
+      "urban": 1430,
+      "andona": 1431,
+      "soura": 1432,
+      "sociali": 1433,
+      "casos": 1434,
+      "castelos": 1435,
+      "hadas": 1436,
+      "haria": 1437,
+      "nsão": 1438,
+      "nspor": 1439,
+      "urança": 1440,
+      "çam": 1441,
+      "mias": 1442,
+      "mização": 1443,
+      "micr": 1444,
+      "mitiva": 1445,
+      "milêni": 1446,
+      "militares": 1447,
+      "supri": 1448,
+      "modo": 1449,
+      "movidos": 1450,
+      "nove": 1451,
+      "novas": 1452,
+      "novos": 1453,
+      "nomia": 1454,
+      "prindo": 1455,
+      "princes": 1456,
+      "primeiro": 1457,
+      "primitiva": 1458,
+      "tempes": 1459,
+      "eias": 1460,
+      "eira": 1461,
+      "eito": 1462,
+      "luência": 1463,
+      "luxo": 1464,
+      "museu": 1465,
+      "mudança": 1466,
+      "transfor": 1467,
+      "traiço": 1468,
+      "transpor": 1469,
+      "vada": 1470,
+      "vapor": 1471,
+      "criação": 1472,
+      "criativo": 1473,
+      "crimes": 1474,
+      "nave": 1475,
+      "naves": 1476,
+      "navio": 1477,
+      "constró": 1478,
+      "conserte": 1479,
+      "bebi": 1480,
+      "bibli": 1481,
+      "biomas": 1482,
+      "culos": 1483,
+      "culti": 1484,
+      "plas": 1485,
+      "rosas": 1486,
+      "temporal": 1487,
+      "temporais": 1488,
+      "Conquis": 1489,
+      "amentos": 1490,
+      "ceba": 1491,
+      "celesti": 1492,
+      "fortifica": 1493,
+      "mináveis": 1494,
+      "trens": 1495,
+      "trevas": 1496,
+      "treinamento": 1497,
+      "táticos": 1498,
+      "realidades": 1499,
+      "ntrate": 1500,
+      "quebrar": 1501,
+      "fadas": 1502,
+      "faça": 1503,
+      "famí": 1504,
+      "facções": 1505,
+      "fauna": 1506,
+      "fazenda": 1507,
+      "neve": 1508,
+      "nebu": 1509,
+      "verso": 1510,
+      "verdade": 1511,
+      "versão": 1512,
+      "vermelha": 1513,
+      "colete": 1514,
+      "coleta": 1515,
+      "cológico": 1516,
+      "colôni": 1517,
+      "coletar": 1518,
+      "colhei": 1519,
+      "espadas": 1520,
+      "espaço": 1521,
+      "estrangeiras": 1522,
+      "rigoroso": 1523,
+      "aventuras": 1524,
+      "abandona": 1525,
+      "agentes": 1526,
+      "agência": 1527,
+      "ageiros": 1528,
+      "cheg": 1529,
+      "chef": 1530,
+      "chuvos": 1531,
+      "chinês": 1532,
+      "cheias": 1533,
+      "fure": 1534,
+      "igas": 1535,
+      "igêni": 1536,
+      "máquin": 1537,
+      "pesca": 1538,
+      "trilha": 1539,
+      "tribo": 1540,
+      "trinch": 1541,
+      "tribula": 1542,
+      "terras": 1543,
+      "vassoura": 1544,
+      "ória": 1545,
+      "óricas": 1546,
+      "explore": 1547,
+      "Coração": 1548,
+      "Comece": 1549,
+      "Contrate": 1550,
+      "eletr": 1551,
+      "evite": 1552,
+      "evidênci": 1553,
+      "intens": 1554,
+      "intereste": 1555,
+      "losas": 1556,
+      "testes": 1557,
+      "óspera": 1558,
+      "derru": 1559,
+      "derrotar": 1560,
+      "corridas": 1561,
+      "corretas": 1562,
+      "corporações": 1563,
+      "trutura": 1564,
+      "truques": 1565,
+      "estratégias": 1566,
+      "equipamento": 1567,
+      "fantasmag": 1568,
+      "Coliseu": 1569,
+      "drakk": 1570,
+      "feridas": 1571,
+      "feuda": 1572,
+      "fontes": 1573,
+      "geologia": 1574,
+      "gerada": 1575,
+      "gerado": 1576,
+      "guerra": 1577,
+      "guardas": 1578,
+      "ltiplas": 1579,
+      "morte": 1580,
+      "mortais": 1581,
+      "períodos": 1582,
+      "presos": 1583,
+      "pressões": 1584,
+      "defenda": 1585,
+      "defesa": 1586,
+      "defender": 1587,
+      "definem": 1588,
+      "defeito": 1589,
+      "cadorias": 1590,
+      "partici": 1591,
+      "particula": 1592,
+      "ologias": 1593,
+      "sombri": 1594,
+      "histórias": 1595,
+      "histórico": 1596,
+      "históricas": 1597,
+      "Proteja": 1598,
+      "clã": 1599,
+      "climáti": 1600,
+      "cendo": 1601,
+      "místicos": 1602,
+      "política": 1603,
+      "ônibus": 1604,
+      "rally": 1605,
+      "escape": 1606,
+      "escapar": 1607,
+      "escavar": 1608,
+      "escalada": 1609,
+      "estilo": 1610,
+      "civil": 1611,
+      "anomali": 1612,
+      "animal": 1613,
+      "infraes": 1614,
+      "influência": 1615,
+      "resgata": 1616,
+      "resgate": 1617,
+      "troca": 1618,
+      "tropas": 1619,
+      "perigosos": 1620,
+      "poderosas": 1621,
+      "batalha": 1622,
+      "planetas": 1623,
+      "alienígena": 1624,
+      "sobrenat": 1625,
+      "interna": 1626,
+      "interrog": 1627,
+      "intervir": 1628,
+      "intermináveis": 1629,
+      "positivo": 1630,
+      "complexas": 1631,
+      "Invista": 1632,
+      "Indiana": 1633,
+      "Invada": 1634,
+      "após": 1635,
+      "aprenda": 1636,
+      "cretamente": 1637,
+      "dispu": 1638,
+      "dispositivo": 1639,
+      "discretamente": 1640,
+      "dinossa": 1641,
+      "egante": 1642,
+      "egíp": 1643,
+      "fície": 1644,
+      "ganize": 1645,
+      "leça": 1646,
+      "mercadorias": 1647,
+      "marciais": 1648,
+      "próspera": 1649,
+      "unidades": 1650,
+      "unicó": 1651,
+      "universo": 1652,
+      "redenção": 1653,
+      "reino": 1654,
+      "reinos": 1655,
+      "espíri": 1656,
+      "cionando": 1657,
+      "calíp": 1658,
+      "caçam": 1659,
+      "caçadas": 1660,
+      "tecnologias": 1661,
+      "restaure": 1662,
+      "seguros": 1663,
+      "segredos": 1664,
+      "segurança": 1665,
+      "magos": 1666,
+      "subaquática": 1667,
+      "subaquáticas": 1668,
+      "subaquáticos": 1669,
+      "movimentos": 1670,
+      "luzes": 1671,
+      "masmorra": 1672,
+      "construção": 1673,
+      "construtor": 1674,
+      "construir": 1675,
+      "minerais": 1676,
+      "mineração": 1677,
+      "negociando": 1678,
+      "pesquisa": 1679,
+      "terror": 1680,
+      "Compre": 1681,
+      "Compita": 1682,
+      "Comande": 1683,
+      "elementais": 1684,
+      "guie": 1685,
+      "guiças": 1686,
+      "cenário": 1687,
+      "perigosa": 1688,
+      "perigoso": 1689,
+      "perigosas": 1690,
+      "ambiente": 1691,
+      "aéreas": 1692,
+      "aprimorada": 1693,
+      "lendários": 1694,
+      "roguelike": 1695,
+      "turistas": 1696,
+      "Guerra": 1697,
+      "Guardi": 1698,
+      "Real": 1699,
+      "Receba": 1700,
+      "Suas": 1701,
+      "Suba": 1702,
+      "adrão": 1703,
+      "ajude": 1704,
+      "arena": 1705,
+      "arenas": 1706,
+      "bulo": 1707,
+      "bandidos": 1708,
+      "blico": 1709,
+      "brocas": 1710,
+      "cronogra": 1711,
+      "cumprindo": 1712,
+      "falhas": 1713,
+      "fluidos": 1714,
+      "flutua": 1715,
+      "gravidade": 1716,
+      "grande": 1717,
+      "humana": 1718,
+      "humano": 1719,
+      "jetivo": 1720,
+      "linha": 1721,
+      "múmias": 1722,
+      "múltiplas": 1723,
+      "menor": 1724,
+      "maldição": 1725,
+      "néon": 1726,
+      "nético": 1727,
+      "ndial": 1728,
+      "nchegante": 1729,
+      "obstá": 1730,
+      "objetivo": 1731,
+      "pule": 1732,
+      "preguiças": 1733,
+      "prazo": 1734,
+      "pistas": 1735,
+      "pistoleiro": 1736,
+      "pirata": 1737,
+      "piratas": 1738,
+      "passagens": 1739,
+      "passageiros": 1740,
+      "saúde": 1741,
+      "saltar": 1742,
+      "salvar": 1743,
+      "ups": 1744,
+      "vende": 1745,
+      "vender": 1746,
+      "regue": 1747,
+      "campo": 1748,
+      "campanhas": 1749,
+      "cavaleiro": 1750,
+      "cavaleiros": 1751,
+      "encantador": 1752,
+      "encantados": 1753,
+      "ogravidade": 1754,
+      "artesanat": 1755,
+      "ingredi": 1756,
+      "organize": 1757,
+      "organizando": 1758,
+      "desvie": 1759,
+      "desviando": 1760,
+      "selvagem": 1761,
+      "expanda": 1762,
+      "expansão": 1763,
+      "extintos": 1764,
+      "extinção": 1765,
+      "antigas": 1766,
+      "antiguidades": 1767,
+      "nsforme": 1768,
+      "mitologia": 1769,
+      "mitológi": 1770,
+      "superfície": 1771,
+      "superar": 1772,
+      "superando": 1773,
+      "constante": 1774,
+      "constantes": 1775,
+      "cuidando": 1776,
+      "fazendas": 1777,
+      "colonos": 1778,
+      "coloniais": 1779,
+      "futurista": 1780,
+      "futuristas": 1781,
+      "profunda": 1782,
+      "profundos": 1783,
+      "evitando": 1784,
+      "dragão": 1785,
+      "dragões": 1786,
+      "assentamento": 1787,
+      "assentamentos": 1788,
+      "sobreviventes": 1789,
+      "sobrevivência": 1790,
+      "posicione": 1791,
+      "posicionar": 1792,
+      "mercenário": 1793,
+      "mercenários": 1794,
+      "próprias": 1795,
+      "próprios": 1796,
+      "ambientais": 1797,
+      "ambientado": 1798,
+      "ameaça": 1799,
+      "ameaças": 1800,
+      "hidropônicas": 1801,
+      "hidromel": 1802,
+      "interaja": 1803,
+      "interagir": 1804,
+      "jovem": 1805,
+      "jovens": 1806,
+      "sistema": 1807,
+      "sistemas": 1808,
+      "subterrâneo": 1809,
+      "subterrâneas": 1810,
+      "1v1": 1811,
+      "Cace": 1812,
+      "Corridas": 1813,
+      "Customize": 1814,
+      "Desça": 1815,
+      "Distribua": 1816,
+      "Defenda": 1817,
+      "Enfrente": 1818,
+      "Estabe": 1819,
+      "Entregue": 1820,
+      "Frequente": 1821,
+      "Garanta": 1822,
+      "Jones": 1823,
+      "Japão": 1824,
+      "Marinha": 1825,
+      "Mundial": 1826,
+      "Mantenha": 1827,
+      "Manipule": 1828,
+      "Organize": 1829,
+      "Oeste": 1830,
+      "Pule": 1831,
+      "Passe": 1832,
+      "Pesque": 1833,
+      "Primeira": 1834,
+      "Perfure": 1835,
+      "Quatro": 1836,
+      "Restaure": 1837,
+      "Rexes": 1838,
+      "Saqueie": 1839,
+      "Sombra": 1840,
+      "Sirva": 1841,
+      "Transforme": 1842,
+      "Torre": 1843,
+      "Treine": 1844,
+      "Viaje": 1845,
+      "Velho": 1846,
+      "aconchegante": 1847,
+      "aparições": 1848,
+      "adicionando": 1849,
+      "apocalíp": 1850,
+      "avatar": 1851,
+      "academia": 1852,
+      "automatizada": 1853,
+      "bondes": 1854,
+      "bordo": 1855,
+      "bruxaria": 1856,
+      "cerco": 1857,
+      "crescem": 1858,
+      "chave": 1859,
+      "customização": 1860,
+      "dãos": 1861,
+      "diminuto": 1862,
+      "distópico": 1863,
+      "distante": 1864,
+      "economia": 1865,
+      "ecossistemas": 1866,
+      "eficiente": 1867,
+      "educando": 1868,
+      "fenômen": 1869,
+      "fogo": 1870,
+      "ferroviári": 1871,
+      "farol": 1872,
+      "favor": 1873,
+      "glória": 1874,
+      "grifos": 1875,
+      "ganhando": 1876,
+      "gladiadores": 1877,
+      "golens": 1878,
+      "grupo": 1879,
+      "hostil": 1880,
+      "hordas": 1881,
+      "ilumina": 1882,
+      "itens": 1883,
+      "logística": 1884,
+      "lançam": 1885,
+      "missões": 1886,
+      "mansão": 1887,
+      "manipulação": 1888,
+      "oponentes": 1889,
+      "oxigêni": 1890,
+      "otimize": 1891,
+      "oteca": 1892,
+      "opressor": 1893,
+      "oferecendo": 1894,
+      "público": 1895,
+      "piadas": 1896,
+      "psicológico": 1897,
+      "pixel": 1898,
+      "rumo": 1899,
+      "ronin": 1900,
+      "rnios": 1901,
+      "synthw": 1902,
+      "sonora": 1903,
+      "solo": 1904,
+      "suspeitos": 1905,
+      "satisfazen": 1906,
+      "sabre": 1907,
+      "tenta": 1908,
+      "vêm": 1909,
+      "vírus": 1910,
+      "xadrez": 1911,
+      "zumbis": 1912,
+      "zero": 1913,
+      "épocas": 1914,
+      "último": 1915,
+      "detetives": 1916,
+      "demoníacos": 1917,
+      "assolado": 1918,
+      "asteroides": 1919,
+      "asfalto": 1920,
+      "assombrados": 1921,
+      "repare": 1922,
+      "repelir": 1923,
+      "repletos": 1924,
+      "radiação": 1925,
+      "ntricos": 1926,
+      "coloridas": 1927,
+      "conecta": 1928,
+      "condições": 1929,
+      "cooperativo": 1930,
+      "esquadrão": 1931,
+      "especiais": 1932,
+      "escassez": 1933,
+      "escuridão": 1934,
+      "estética": 1935,
+      "esmagado": 1936,
+      "estábulo": 1937,
+      "riqueza": 1938,
+      "dominar": 1939,
+      "documente": 1940,
+      "domesticação": 1941,
+      "cidadãos": 1942,
+      "cibernético": 1943,
+      "circuitos": 1944,
+      "taverna": 1945,
+      "cativante": 1946,
+      "camada": 1947,
+      "caminhadas": 1948,
+      "caravana": 1949,
+      "capturam": 1950,
+      "energia": 1951,
+      "encomenda": 1952,
+      "encontrar": 1953,
+      "enfrentando": 1954,
+      "engenharia": 1955,
+      "entregar": 1956,
+      "ancestral": 1957,
+      "erupções": 1958,
+      "quartos": 1959,
+      "quântico": 1960,
+      "competitivo": 1961,
+      "arrastão": 1962,
+      "online": 1963,
+      "alimentados": 1964,
+      "algumas": 1965,
+      "alcançar": 1966,
+      "inimigas": 1967,
+      "infiltra": 1968,
+      "incursões": 1969,
+      "investigação": 1970,
+      "labirintos": 1971,
+      "ladrões": 1972,
+      "resistência": 1973,
+      "império": 1974,
+      "imersivo": 1975,
+      "imortalidade": 1976,
+      "deslize": 1977,
+      "destrutíveis": 1978,
+      "destroços": 1979,
+      "desenvolva": 1980,
+      "paranormais": 1981,
+      "tráfego": 1982,
+      "secular": 1983,
+      "seguidores": 1984,
+      "viajando": 1985,
+      "digitais": 1986,
+      "dirigíveis": 1987,
+      "divindade": 1988,
+      "excêntricos": 1989,
+      "exigentes": 1990,
+      "exposições": 1991,
+      "mamutes": 1992,
+      "pousada": 1993,
+      "atraindo": 1994,
+      "megacorporações": 1995,
+      "voadora": 1996,
+      "urbanas": 1997,
+      "socialize": 1998,
+      "microgravidade": 1999,
+      "milênios": 2000,
+      "suprimentos": 2001,
+      "princesas": 2002,
+      "tempestades": 2003,
+      "transformando": 2004,
+      "traiçoeiras": 2005,
+      "transporte": 2006,
+      "constrói": 2007,
+      "bebidas": 2008,
+      "biblioteca": 2009,
+      "cultivar": 2010,
+      "Conquiste": 2011,
+      "celestiais": 2012,
+      "fortificados": 2013,
+      "família": 2014,
+      "nebulosas": 2015,
+      "colônia": 2016,
+      "colheitas": 2017,
+      "abandonada": 2018,
+      "chegar": 2019,
+      "chefes": 2020,
+      "chuvosa": 2021,
+      "máquinas": 2022,
+      "trincheira": 2023,
+      "tribulações": 2024,
+      "eletrônicas": 2025,
+      "evidências": 2026,
+      "intensas": 2027,
+      "interestelares": 2028,
+      "derrubar": 2029,
+      "fantasmagóricas": 2030,
+      "drakkares": 2031,
+      "feudal": 2032,
+      "participando": 2033,
+      "particulares": 2034,
+      "sombrio": 2035,
+      "climáticas": 2036,
+      "anomalias": 2037,
+      "infraestrutura": 2038,
+      "sobrenatural": 2039,
+      "interroga": 2040,
+      "disputas": 2041,
+      "dinossauros": 2042,
+      "egípcias": 2043,
+      "unicórnios": 2044,
+      "espírito": 2045,
+      "Guardião": 2046,
+      "cronograma": 2047,
+      "flutuantes": 2048,
+      "obstáculos": 2049,
+      "artesanato": 2050,
+      "ingredientes": 2051,
+      "mitológicos": 2052,
+      "Estabeleça": 2053,
+      "apocalíptico": 2054,
+      "fenômenos": 2055,
+      "ferroviárias": 2056,
+      "iluminadas": 2057,
+      "oxigênio": 2058,
+      "opressoras": 2059,
+      "synthwave": 2060,
+      "satisfazendo": 2061
+    },
+    "merges": [
+      [
+        "d",
+        "e"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "r",
+        "a"
+      ],
+      [
+        "o",
+        "s"
+      ],
+      [
+        "n",
+        "t"
+      ],
+      [
+        "c",
+        "o"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "d",
+        "o"
+      ],
+      [
+        "u",
+        "m"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "U",
+        "m"
+      ],
+      [
+        "t",
+        "a"
+      ],
+      [
+        "c",
+        "a"
+      ],
+      [
+        "p",
+        "a"
+      ],
+      [
+        "t",
+        "i"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "o",
+        "g"
+      ],
+      [
+        "e",
+        "nt"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "co",
+        "m"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "ã",
+        "o"
+      ],
+      [
+        "t",
+        "e"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "l",
+        "a"
+      ],
+      [
+        "j",
+        "og"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "jog",
+        "o"
+      ],
+      [
+        "e",
+        "re"
+      ],
+      [
+        "n",
+        "ci"
+      ],
+      [
+        "re",
+        "s"
+      ],
+      [
+        "i",
+        "m"
+      ],
+      [
+        "de",
+        "s"
+      ],
+      [
+        "um",
+        "a"
+      ],
+      [
+        "pa",
+        "ra"
+      ],
+      [
+        "t",
+        "r"
+      ],
+      [
+        "ç",
+        "ão"
+      ],
+      [
+        "ere",
+        "nci"
+      ],
+      [
+        "o",
+        "l"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "v",
+        "i"
+      ],
+      [
+        "p",
+        "e"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "u",
+        "a"
+      ],
+      [
+        "e",
+        "x"
+      ],
+      [
+        "m",
+        "a"
+      ],
+      [
+        "r",
+        "o"
+      ],
+      [
+        "g",
+        "i"
+      ],
+      [
+        "u",
+        "la"
+      ],
+      [
+        "g",
+        "erenci"
+      ],
+      [
+        "p",
+        "o"
+      ],
+      [
+        "u",
+        "s"
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "qu",
+        "e"
+      ],
+      [
+        "m",
+        "ent"
+      ],
+      [
+        "is",
+        "t"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "a",
+        "nt"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "n",
+        "do"
+      ],
+      [
+        "v",
+        "o"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "do",
+        "r"
+      ],
+      [
+        "an",
+        "do"
+      ],
+      [
+        "d",
+        "as"
+      ],
+      [
+        "s",
+        "o"
+      ],
+      [
+        "s",
+        "im"
+      ],
+      [
+        "on",
+        "de"
+      ],
+      [
+        "sim",
+        "ula"
+      ],
+      [
+        "d",
+        "os"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "c",
+        "as"
+      ],
+      [
+        "h",
+        "a"
+      ],
+      [
+        "n",
+        "s"
+      ],
+      [
+        "da",
+        "de"
+      ],
+      [
+        "simula",
+        "dor"
+      ],
+      [
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "ra"
+      ],
+      [
+        "u",
+        "ra"
+      ],
+      [
+        "á",
+        "ti"
+      ],
+      [
+        "ç",
+        "a"
+      ],
+      [
+        "a",
+        "is"
+      ],
+      [
+        "m",
+        "i"
+      ],
+      [
+        "s",
+        "u"
+      ],
+      [
+        "õ",
+        "es"
+      ],
+      [
+        "c",
+        "ê"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "n",
+        "o"
+      ],
+      [
+        "p",
+        "ri"
+      ],
+      [
+        "t",
+        "em"
+      ],
+      [
+        "c",
+        "os"
+      ],
+      [
+        "e",
+        "i"
+      ],
+      [
+        "h",
+        "as"
+      ],
+      [
+        "l",
+        "u"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "m",
+        "as"
+      ],
+      [
+        "t",
+        "ra"
+      ],
+      [
+        "v",
+        "a"
+      ],
+      [
+        "tr",
+        "ua"
+      ],
+      [
+        "vo",
+        "cê"
+      ],
+      [
+        "a",
+        "ção"
+      ],
+      [
+        "c",
+        "ri"
+      ],
+      [
+        "n",
+        "a"
+      ],
+      [
+        "p",
+        "lo"
+      ],
+      [
+        "u",
+        "e"
+      ],
+      [
+        "co",
+        "ns"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "b",
+        "i"
+      ],
+      [
+        "c",
+        "u"
+      ],
+      [
+        "f",
+        "i"
+      ],
+      [
+        "p",
+        "l"
+      ],
+      [
+        "r",
+        "as"
+      ],
+      [
+        "r",
+        "os"
+      ],
+      [
+        "t",
+        "as"
+      ],
+      [
+        "tem",
+        "po"
+      ],
+      [
+        "C",
+        "on"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "R",
+        "PG"
+      ],
+      [
+        "a",
+        "v"
+      ],
+      [
+        "a",
+        "ment"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "f",
+        "or"
+      ],
+      [
+        "i",
+        "a"
+      ],
+      [
+        "l",
+        "has"
+      ],
+      [
+        "m",
+        "in"
+      ],
+      [
+        "t",
+        "re"
+      ],
+      [
+        "t",
+        "áti"
+      ],
+      [
+        "re",
+        "al"
+      ],
+      [
+        "nt",
+        "e"
+      ],
+      [
+        "nt",
+        "ra"
+      ],
+      [
+        "gerenci",
+        "e"
+      ],
+      [
+        "que",
+        "bra"
+      ],
+      [
+        "mu",
+        "ndo"
+      ],
+      [
+        "a",
+        "do"
+      ],
+      [
+        "b",
+        "as"
+      ],
+      [
+        "e",
+        "te"
+      ],
+      [
+        "f",
+        "a"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "s",
+        "trua"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "ç",
+        "as"
+      ],
+      [
+        "ç",
+        "ões"
+      ],
+      [
+        "nt",
+        "es"
+      ],
+      [
+        "co",
+        "l"
+      ],
+      [
+        "co",
+        "ntra"
+      ],
+      [
+        "es",
+        "pa"
+      ],
+      [
+        "es",
+        "tra"
+      ],
+      [
+        "ri",
+        "g"
+      ],
+      [
+        "da",
+        "des"
+      ],
+      [
+        "is",
+        "ta"
+      ],
+      [
+        "ta",
+        "r"
+      ],
+      [
+        "ca",
+        "be"
+      ],
+      [
+        "og",
+        "ue"
+      ],
+      [
+        "al",
+        "i"
+      ],
+      [
+        "se",
+        "us"
+      ],
+      [
+        "gi",
+        "a"
+      ],
+      [
+        "Con",
+        "strua"
+      ],
+      [
+        "av",
+        "ent"
+      ],
+      [
+        "ament",
+        "o"
+      ],
+      [
+        "G",
+        "erenci"
+      ],
+      [
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "c",
+        "ur"
+      ],
+      [
+        "f",
+        "u"
+      ],
+      [
+        "g",
+        "a"
+      ],
+      [
+        "i",
+        "g"
+      ],
+      [
+        "m",
+        "á"
+      ],
+      [
+        "p",
+        "es"
+      ],
+      [
+        "p",
+        "ro"
+      ],
+      [
+        "s",
+        "ua"
+      ],
+      [
+        "t",
+        "é"
+      ],
+      [
+        "t",
+        "ri"
+      ],
+      [
+        "t",
+        "er"
+      ],
+      [
+        "v",
+        "as"
+      ],
+      [
+        "á",
+        "ri"
+      ],
+      [
+        "é",
+        "ri"
+      ],
+      [
+        "ó",
+        "ri"
+      ],
+      [
+        "ci",
+        "dade"
+      ],
+      [
+        "ent",
+        "es"
+      ],
+      [
+        "com",
+        "o"
+      ],
+      [
+        "ex",
+        "plo"
+      ],
+      [
+        "gerenci",
+        "ando"
+      ],
+      [
+        "so",
+        "b"
+      ],
+      [
+        "Gerenci",
+        "e"
+      ],
+      [
+        "cur",
+        "s"
+      ],
+      [
+        "C",
+        "o"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "e",
+        "qu"
+      ],
+      [
+        "e",
+        "vi"
+      ],
+      [
+        "f",
+        "ant"
+      ],
+      [
+        "i",
+        "ra"
+      ],
+      [
+        "i",
+        "nt"
+      ],
+      [
+        "i",
+        "pa"
+      ],
+      [
+        "l",
+        "os"
+      ],
+      [
+        "m",
+        "ist"
+      ],
+      [
+        "p",
+        "la"
+      ],
+      [
+        "p",
+        "or"
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "s",
+        "ão"
+      ],
+      [
+        "t",
+        "es"
+      ],
+      [
+        "z",
+        "e"
+      ],
+      [
+        "ó",
+        "s"
+      ],
+      [
+        "de",
+        "r"
+      ],
+      [
+        "re",
+        "curs"
+      ],
+      [
+        "co",
+        "r"
+      ],
+      [
+        "en",
+        "s"
+      ],
+      [
+        "en",
+        "da"
+      ],
+      [
+        "res",
+        "ol"
+      ],
+      [
+        "tr",
+        "u"
+      ],
+      [
+        "gi",
+        "co"
+      ],
+      [
+        "gerenci",
+        "amento"
+      ],
+      [
+        "ment",
+        "os"
+      ],
+      [
+        "espa",
+        "ci"
+      ],
+      [
+        "estra",
+        "té"
+      ],
+      [
+        "explo",
+        "ra"
+      ],
+      [
+        "equ",
+        "ipa"
+      ],
+      [
+        "fant",
+        "as"
+      ],
+      [
+        "recurs",
+        "os"
+      ],
+      [
+        "C",
+        "ol"
+      ],
+      [
+        "J",
+        "ogue"
+      ],
+      [
+        "L",
+        "i"
+      ],
+      [
+        "a",
+        "da"
+      ],
+      [
+        "d",
+        "ra"
+      ],
+      [
+        "f",
+        "e"
+      ],
+      [
+        "f",
+        "o"
+      ],
+      [
+        "f",
+        "re"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "g",
+        "u"
+      ],
+      [
+        "g",
+        "en"
+      ],
+      [
+        "h",
+        "ist"
+      ],
+      [
+        "i",
+        "ta"
+      ],
+      [
+        "j",
+        "a"
+      ],
+      [
+        "l",
+        "ti"
+      ],
+      [
+        "l",
+        "ha"
+      ],
+      [
+        "m",
+        "or"
+      ],
+      [
+        "p",
+        "er"
+      ],
+      [
+        "p",
+        "res"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "ê",
+        "nci"
+      ],
+      [
+        "de",
+        "f"
+      ],
+      [
+        "de",
+        "re"
+      ],
+      [
+        "de",
+        "ve"
+      ],
+      [
+        "ca",
+        "do"
+      ],
+      [
+        "pa",
+        "r"
+      ],
+      [
+        "ti",
+        "vo"
+      ],
+      [
+        "an",
+        "i"
+      ],
+      [
+        "com",
+        "ba"
+      ],
+      [
+        "ar",
+        "te"
+      ],
+      [
+        "al",
+        "ta"
+      ],
+      [
+        "ol",
+        "og"
+      ],
+      [
+        "se",
+        "u"
+      ],
+      [
+        "pe",
+        "ra"
+      ],
+      [
+        "ant",
+        "e"
+      ],
+      [
+        "ur",
+        "as"
+      ],
+      [
+        "so",
+        "m"
+      ],
+      [
+        "táti",
+        "co"
+      ],
+      [
+        "cabe",
+        "ça"
+      ],
+      [
+        "avent",
+        "ura"
+      ],
+      [
+        "estraté",
+        "gia"
+      ],
+      [
+        "equipa",
+        "mentos"
+      ],
+      [
+        "Li",
+        "dere"
+      ],
+      [
+        "hist",
+        "óri"
+      ],
+      [
+        "comba",
+        "te"
+      ],
+      [
+        "E",
+        "x"
+      ],
+      [
+        "P",
+        "ro"
+      ],
+      [
+        "c",
+        "l"
+      ],
+      [
+        "c",
+        "en"
+      ],
+      [
+        "e",
+        "ta"
+      ],
+      [
+        "f",
+        "ere"
+      ],
+      [
+        "g",
+        "o"
+      ],
+      [
+        "i",
+        "da"
+      ],
+      [
+        "m",
+        "í"
+      ],
+      [
+        "p",
+        "os"
+      ],
+      [
+        "p",
+        "ol"
+      ],
+      [
+        "p",
+        "ula"
+      ],
+      [
+        "t",
+        "os"
+      ],
+      [
+        "u",
+        "re"
+      ],
+      [
+        "z",
+        "o"
+      ],
+      [
+        "z",
+        "ação"
+      ],
+      [
+        "í",
+        "gen"
+      ],
+      [
+        "ó",
+        "gico"
+      ],
+      [
+        "ô",
+        "ni"
+      ],
+      [
+        "as",
+        "s"
+      ],
+      [
+        "ra",
+        "l"
+      ],
+      [
+        "ra",
+        "v"
+      ],
+      [
+        "os",
+        "os"
+      ],
+      [
+        "es",
+        "ca"
+      ],
+      [
+        "es",
+        "ti"
+      ],
+      [
+        "ri",
+        "das"
+      ],
+      [
+        "ci",
+        "vi"
+      ],
+      [
+        "ta",
+        "for"
+      ],
+      [
+        "ti",
+        "ci"
+      ],
+      [
+        "en",
+        "ígen"
+      ],
+      [
+        "ent",
+        "e"
+      ],
+      [
+        "an",
+        "a"
+      ],
+      [
+        "an",
+        "o"
+      ],
+      [
+        "an",
+        "im"
+      ],
+      [
+        "er",
+        "ra"
+      ],
+      [
+        "er",
+        "to"
+      ],
+      [
+        "qu",
+        "is"
+      ],
+      [
+        "com",
+        "pl"
+      ],
+      [
+        "ar",
+        "ma"
+      ],
+      [
+        "in",
+        "f"
+      ],
+      [
+        "res",
+        "ga"
+      ],
+      [
+        "im",
+        "ent"
+      ],
+      [
+        "tr",
+        "o"
+      ],
+      [
+        "tr",
+        "ó"
+      ],
+      [
+        "vi",
+        "da"
+      ],
+      [
+        "vi",
+        "dade"
+      ],
+      [
+        "pe",
+        "rig"
+      ],
+      [
+        "di",
+        "lhas"
+      ],
+      [
+        "po",
+        "de"
+      ],
+      [
+        "at",
+        "uras"
+      ],
+      [
+        "me",
+        "ira"
+      ],
+      [
+        "ba",
+        "ta"
+      ],
+      [
+        "ura",
+        "l"
+      ],
+      [
+        "su",
+        "as"
+      ],
+      [
+        "cri",
+        "aturas"
+      ],
+      [
+        "plo",
+        "re"
+      ],
+      [
+        "cons",
+        "trua"
+      ],
+      [
+        "pl",
+        "an"
+      ],
+      [
+        "real",
+        "ista"
+      ],
+      [
+        "bas",
+        "e"
+      ],
+      [
+        "ali",
+        "enígen"
+      ],
+      [
+        "má",
+        "gi"
+      ],
+      [
+        "sob",
+        "re"
+      ],
+      [
+        "int",
+        "er"
+      ],
+      [
+        "mist",
+        "éri"
+      ],
+      [
+        "pla",
+        "tafor"
+      ],
+      [
+        "espaci",
+        "al"
+      ],
+      [
+        "Col",
+        "ete"
+      ],
+      [
+        "fo",
+        "cado"
+      ],
+      [
+        "fre",
+        "nte"
+      ],
+      [
+        "ênci",
+        "a"
+      ],
+      [
+        "olog",
+        "ia"
+      ],
+      [
+        "Ex",
+        "plore"
+      ],
+      [
+        "pos",
+        "i"
+      ],
+      [
+        "pula",
+        "ção"
+      ],
+      [
+        "compl",
+        "ex"
+      ],
+      [
+        "arma",
+        "dilhas"
+      ],
+      [
+        "platafor",
+        "ma"
+      ],
+      [
+        "2",
+        "D"
+      ],
+      [
+        "A",
+        "d"
+      ],
+      [
+        "A",
+        "s"
+      ],
+      [
+        "I",
+        "n"
+      ],
+      [
+        "P",
+        "ar"
+      ],
+      [
+        "U",
+        "se"
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "a",
+        "é"
+      ],
+      [
+        "a",
+        "pri"
+      ],
+      [
+        "b",
+        "o"
+      ],
+      [
+        "b",
+        "ri"
+      ],
+      [
+        "b",
+        "ua"
+      ],
+      [
+        "b",
+        "us"
+      ],
+      [
+        "b",
+        "ras"
+      ],
+      [
+        "c",
+        "n"
+      ],
+      [
+        "c",
+        "â"
+      ],
+      [
+        "c",
+        "re"
+      ],
+      [
+        "d",
+        "is"
+      ],
+      [
+        "d",
+        "in"
+      ],
+      [
+        "d",
+        "ári"
+      ],
+      [
+        "d",
+        "ural"
+      ],
+      [
+        "e",
+        "g"
+      ],
+      [
+        "f",
+        "í"
+      ],
+      [
+        "g",
+        "ant"
+      ],
+      [
+        "g",
+        "ani"
+      ],
+      [
+        "h",
+        "er"
+      ],
+      [
+        "i",
+        "x"
+      ],
+      [
+        "j",
+        "ete"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "l",
+        "en"
+      ],
+      [
+        "m",
+        "er"
+      ],
+      [
+        "m",
+        "ar"
+      ],
+      [
+        "n",
+        "as"
+      ],
+      [
+        "n",
+        "os"
+      ],
+      [
+        "n",
+        "da"
+      ],
+      [
+        "p",
+        "r"
+      ],
+      [
+        "r",
+        "ogue"
+      ],
+      [
+        "s",
+        "uma"
+      ],
+      [
+        "t",
+        "u"
+      ],
+      [
+        "t",
+        "or"
+      ],
+      [
+        "u",
+        "ni"
+      ],
+      [
+        "v",
+        "ar"
+      ],
+      [
+        "v",
+        "al"
+      ],
+      [
+        "v",
+        "iment"
+      ],
+      [
+        "x",
+        "ante"
+      ],
+      [
+        "z",
+        "en"
+      ],
+      [
+        "á",
+        "s"
+      ],
+      [
+        "ç",
+        "os"
+      ],
+      [
+        "é",
+        "s"
+      ],
+      [
+        "ó",
+        "is"
+      ],
+      [
+        "re",
+        "de"
+      ],
+      [
+        "re",
+        "in"
+      ],
+      [
+        "re",
+        "la"
+      ],
+      [
+        "nt",
+        "a"
+      ],
+      [
+        "nt",
+        "os"
+      ],
+      [
+        "es",
+        "p"
+      ],
+      [
+        "ri",
+        "a"
+      ],
+      [
+        "ri",
+        "s"
+      ],
+      [
+        "ri",
+        "da"
+      ],
+      [
+        "ri",
+        "bua"
+      ],
+      [
+        "ci",
+        "e"
+      ],
+      [
+        "ci",
+        "on"
+      ],
+      [
+        "em",
+        "ent"
+      ],
+      [
+        "ca",
+        "l"
+      ],
+      [
+        "ca",
+        "de"
+      ],
+      [
+        "ca",
+        "ça"
+      ],
+      [
+        "ti",
+        "ca"
+      ],
+      [
+        "en",
+        "qu"
+      ],
+      [
+        "en",
+        "ha"
+      ],
+      [
+        "qu",
+        "áti"
+      ],
+      [
+        "te",
+        "cn"
+      ],
+      [
+        "in",
+        "a"
+      ],
+      [
+        "res",
+        "ta"
+      ],
+      [
+        "des",
+        "cu"
+      ],
+      [
+        "ol",
+        "ógico"
+      ],
+      [
+        "se",
+        "g"
+      ],
+      [
+        "di",
+        "fere"
+      ],
+      [
+        "li",
+        "dades"
+      ],
+      [
+        "li",
+        "zação"
+      ],
+      [
+        "ma",
+        "g"
+      ],
+      [
+        "ment",
+        "e"
+      ],
+      [
+        "ist",
+        "re"
+      ],
+      [
+        "at",
+        "rav"
+      ],
+      [
+        "ant",
+        "o"
+      ],
+      [
+        "me",
+        "tró"
+      ],
+      [
+        "ve",
+        "is"
+      ],
+      [
+        "ha",
+        "bi"
+      ],
+      [
+        "ba",
+        "quáti"
+      ],
+      [
+        "su",
+        "baquáti"
+      ],
+      [
+        "mo",
+        "viment"
+      ],
+      [
+        "ni",
+        "ca"
+      ],
+      [
+        "pri",
+        "meira"
+      ],
+      [
+        "lu",
+        "z"
+      ],
+      [
+        "lu",
+        "ta"
+      ],
+      [
+        "mas",
+        "mor"
+      ],
+      [
+        "cons",
+        "tru"
+      ],
+      [
+        "fi",
+        "ca"
+      ],
+      [
+        "ce",
+        "dural"
+      ],
+      [
+        "min",
+        "e"
+      ],
+      [
+        "min",
+        "istre"
+      ],
+      [
+        "táti",
+        "cas"
+      ],
+      [
+        "ado",
+        "res"
+      ],
+      [
+        "ne",
+        "go"
+      ],
+      [
+        "cabe",
+        "ças"
+      ],
+      [
+        "ab",
+        "erto"
+      ],
+      [
+        "pes",
+        "quis"
+      ],
+      [
+        "pro",
+        "cedural"
+      ],
+      [
+        "tri",
+        "pulação"
+      ],
+      [
+        "ter",
+        "r"
+      ],
+      [
+        "Co",
+        "m"
+      ],
+      [
+        "el",
+        "ement"
+      ],
+      [
+        "cor",
+        "rida"
+      ],
+      [
+        "resol",
+        "va"
+      ],
+      [
+        "resol",
+        "ver"
+      ],
+      [
+        "explora",
+        "ção"
+      ],
+      [
+        "fantas",
+        "ia"
+      ],
+      [
+        "gu",
+        "i"
+      ],
+      [
+        "Pro",
+        "jete"
+      ],
+      [
+        "cen",
+        "ári"
+      ],
+      [
+        "pol",
+        "e"
+      ],
+      [
+        "zo",
+        "ológico"
+      ],
+      [
+        "civi",
+        "lização"
+      ],
+      [
+        "tici",
+        "pe"
+      ],
+      [
+        "anim",
+        "ais"
+      ],
+      [
+        "perig",
+        "os"
+      ],
+      [
+        "bata",
+        "lhas"
+      ],
+      [
+        "plan",
+        "eta"
+      ],
+      [
+        "alienígen",
+        "as"
+      ],
+      [
+        "complex",
+        "os"
+      ],
+      [
+        "Ad",
+        "ministre"
+      ],
+      [
+        "As",
+        "suma"
+      ],
+      [
+        "Par",
+        "ticipe"
+      ],
+      [
+        "am",
+        "bi"
+      ],
+      [
+        "aé",
+        "re"
+      ],
+      [
+        "apri",
+        "mo"
+      ],
+      [
+        "câ",
+        "nica"
+      ],
+      [
+        "gant",
+        "es"
+      ],
+      [
+        "her",
+        "óis"
+      ],
+      [
+        "len",
+        "dári"
+      ],
+      [
+        "rogue",
+        "li"
+      ],
+      [
+        "tu",
+        "ris"
+      ],
+      [
+        "rela",
+        "xante"
+      ],
+      [
+        "enqu",
+        "anto"
+      ],
+      [
+        "descu",
+        "bra"
+      ],
+      [
+        "difere",
+        "ntes"
+      ],
+      [
+        "atrav",
+        "és"
+      ],
+      [
+        "metró",
+        "pole"
+      ],
+      [
+        "habi",
+        "lidades"
+      ],
+      [
+        ")",
+        "."
+      ],
+      [
+        "C",
+        "u"
+      ],
+      [
+        "C",
+        "ri"
+      ],
+      [
+        "F",
+        "P"
+      ],
+      [
+        "G",
+        "u"
+      ],
+      [
+        "P",
+        "i"
+      ],
+      [
+        "R",
+        "e"
+      ],
+      [
+        "S",
+        "u"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "a",
+        "j"
+      ],
+      [
+        "a",
+        "o"
+      ],
+      [
+        "a",
+        "re"
+      ],
+      [
+        "a",
+        "me"
+      ],
+      [
+        "a",
+        "fi"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "b",
+        "ô"
+      ],
+      [
+        "b",
+        "os"
+      ],
+      [
+        "b",
+        "an"
+      ],
+      [
+        "b",
+        "ar"
+      ],
+      [
+        "b",
+        "li"
+      ],
+      [
+        "b",
+        "ro"
+      ],
+      [
+        "b",
+        "terr"
+      ],
+      [
+        "c",
+        "r"
+      ],
+      [
+        "c",
+        "um"
+      ],
+      [
+        "c",
+        "ção"
+      ],
+      [
+        "c",
+        "li"
+      ],
+      [
+        "c",
+        "ós"
+      ],
+      [
+        "d",
+        "ro"
+      ],
+      [
+        "d",
+        "ue"
+      ],
+      [
+        "d",
+        "ge"
+      ],
+      [
+        "d",
+        "bo"
+      ],
+      [
+        "e",
+        "f"
+      ],
+      [
+        "f",
+        "al"
+      ],
+      [
+        "f",
+        "lo"
+      ],
+      [
+        "f",
+        "at"
+      ],
+      [
+        "f",
+        "ur"
+      ],
+      [
+        "f",
+        "ei"
+      ],
+      [
+        "f",
+        "lu"
+      ],
+      [
+        "f",
+        "éri"
+      ],
+      [
+        "f",
+        "erra"
+      ],
+      [
+        "g",
+        "ra"
+      ],
+      [
+        "g",
+        "on"
+      ],
+      [
+        "g",
+        "ua"
+      ],
+      [
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "um"
+      ],
+      [
+        "i",
+        "r"
+      ],
+      [
+        "i",
+        "co"
+      ],
+      [
+        "i",
+        "dade"
+      ],
+      [
+        "i",
+        "ros"
+      ],
+      [
+        "i",
+        "nte"
+      ],
+      [
+        "i",
+        "dades"
+      ],
+      [
+        "i",
+        "lha"
+      ],
+      [
+        "i",
+        "tos"
+      ],
+      [
+        "j",
+        "e"
+      ],
+      [
+        "j",
+        "o"
+      ],
+      [
+        "j",
+        "ar"
+      ],
+      [
+        "l",
+        "in"
+      ],
+      [
+        "l",
+        "va"
+      ],
+      [
+        "m",
+        "ú"
+      ],
+      [
+        "m",
+        "os"
+      ],
+      [
+        "m",
+        "en"
+      ],
+      [
+        "m",
+        "al"
+      ],
+      [
+        "n",
+        "é"
+      ],
+      [
+        "n",
+        "ção"
+      ],
+      [
+        "n",
+        "di"
+      ],
+      [
+        "n",
+        "ça"
+      ],
+      [
+        "n",
+        "ch"
+      ],
+      [
+        "o",
+        "b"
+      ],
+      [
+        "o",
+        "u"
+      ],
+      [
+        "o",
+        "res"
+      ],
+      [
+        "o",
+        "ce"
+      ],
+      [
+        "p",
+        "u"
+      ],
+      [
+        "p",
+        "re"
+      ],
+      [
+        "p",
+        "ra"
+      ],
+      [
+        "p",
+        "ist"
+      ],
+      [
+        "p",
+        "ira"
+      ],
+      [
+        "p",
+        "ós"
+      ],
+      [
+        "p",
+        "ass"
+      ],
+      [
+        "r",
+        "ci"
+      ],
+      [
+        "s",
+        "a"
+      ],
+      [
+        "s",
+        "em"
+      ],
+      [
+        "s",
+        "an"
+      ],
+      [
+        "s",
+        "al"
+      ],
+      [
+        "s",
+        "ist"
+      ],
+      [
+        "s",
+        "ões"
+      ],
+      [
+        "t",
+        "s"
+      ],
+      [
+        "t",
+        "á"
+      ],
+      [
+        "t",
+        "um"
+      ],
+      [
+        "t",
+        "ur"
+      ],
+      [
+        "t",
+        "ura"
+      ],
+      [
+        "u",
+        "p"
+      ],
+      [
+        "u",
+        "to"
+      ],
+      [
+        "v",
+        "os"
+      ],
+      [
+        "v",
+        "es"
+      ],
+      [
+        "v",
+        "is"
+      ],
+      [
+        "v",
+        "en"
+      ],
+      [
+        "v",
+        "ros"
+      ],
+      [
+        "v",
+        "ali"
+      ],
+      [
+        "v",
+        "enda"
+      ],
+      [
+        "á",
+        "gua"
+      ],
+      [
+        "â",
+        "ne"
+      ],
+      [
+        "ç",
+        "o"
+      ],
+      [
+        "é",
+        "ci"
+      ],
+      [
+        "é",
+        "rci"
+      ],
+      [
+        "ê",
+        "ni"
+      ],
+      [
+        "í",
+        "p"
+      ],
+      [
+        "í",
+        "nas"
+      ],
+      [
+        "í",
+        "veis"
+      ],
+      [
+        "í",
+        "fica"
+      ],
+      [
+        "ó",
+        "pri"
+      ],
+      [
+        "de",
+        "us"
+      ],
+      [
+        "as",
+        "tre"
+      ],
+      [
+        "re",
+        "g"
+      ],
+      [
+        "re",
+        "ção"
+      ],
+      [
+        "ra",
+        "da"
+      ],
+      [
+        "ra",
+        "is"
+      ],
+      [
+        "ra",
+        "ção"
+      ],
+      [
+        "ra",
+        "ros"
+      ],
+      [
+        "nt",
+        "as"
+      ],
+      [
+        "co",
+        "bri"
+      ],
+      [
+        "ri",
+        "ais"
+      ],
+      [
+        "ci",
+        "ent"
+      ],
+      [
+        "ci",
+        "ais"
+      ],
+      [
+        "ci",
+        "dades"
+      ],
+      [
+        "da",
+        "ndo"
+      ],
+      [
+        "ta",
+        "is"
+      ],
+      [
+        "ta",
+        "gon"
+      ],
+      [
+        "ca",
+        "m"
+      ],
+      [
+        "ca",
+        "val"
+      ],
+      [
+        "ca",
+        "nta"
+      ],
+      [
+        "pa",
+        "pe"
+      ],
+      [
+        "ti",
+        "co"
+      ],
+      [
+        "ti",
+        "cas"
+      ],
+      [
+        "ti",
+        "cos"
+      ],
+      [
+        "ti",
+        "va"
+      ],
+      [
+        "ti",
+        "vidade"
+      ],
+      [
+        "ti",
+        "ços"
+      ],
+      [
+        "en",
+        "o"
+      ],
+      [
+        "en",
+        "ig"
+      ],
+      [
+        "en",
+        "frente"
+      ],
+      [
+        "en",
+        "canta"
+      ],
+      [
+        "og",
+        "ra"
+      ],
+      [
+        "qu",
+        "es"
+      ],
+      [
+        "qu",
+        "eno"
+      ],
+      [
+        "com",
+        "ida"
+      ],
+      [
+        "ar",
+        "mas"
+      ],
+      [
+        "ar",
+        "tes"
+      ],
+      [
+        "ar",
+        "cade"
+      ],
+      [
+        "te",
+        "riais"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        "in",
+        "vas"
+      ],
+      [
+        "in",
+        "ita"
+      ],
+      [
+        "la",
+        "do"
+      ],
+      [
+        "jog",
+        "adores"
+      ],
+      [
+        "or",
+        "gani"
+      ],
+      [
+        "des",
+        "vi"
+      ],
+      [
+        "des",
+        "afi"
+      ],
+      [
+        "des",
+        "astre"
+      ],
+      [
+        "des",
+        "cobri"
+      ],
+      [
+        "tr",
+        "ô"
+      ],
+      [
+        "se",
+        "cre"
+      ],
+      [
+        "se",
+        "lva"
+      ],
+      [
+        "vi",
+        "v"
+      ],
+      [
+        "pe",
+        "dra"
+      ],
+      [
+        "pe",
+        "ix"
+      ],
+      [
+        "pe",
+        "queno"
+      ],
+      [
+        "di",
+        "da"
+      ],
+      [
+        "di",
+        "dos"
+      ],
+      [
+        "di",
+        "reção"
+      ],
+      [
+        "li",
+        "de"
+      ],
+      [
+        "li",
+        "cidade"
+      ],
+      [
+        "li",
+        "vros"
+      ],
+      [
+        "li",
+        "dando"
+      ],
+      [
+        "ex",
+        "pa"
+      ],
+      [
+        "ex",
+        "ti"
+      ],
+      [
+        "ex",
+        "tre"
+      ],
+      [
+        "ex",
+        "érci"
+      ],
+      [
+        "ma",
+        "is"
+      ],
+      [
+        "ma",
+        "gia"
+      ],
+      [
+        "ma",
+        "teriais"
+      ],
+      [
+        "ro",
+        "bô"
+      ],
+      [
+        "gi",
+        "gantes"
+      ],
+      [
+        "us",
+        "ar"
+      ],
+      [
+        "us",
+        "to"
+      ],
+      [
+        "us",
+        "ando"
+      ],
+      [
+        "lo",
+        "te"
+      ],
+      [
+        "lo",
+        "cidade"
+      ],
+      [
+        "ment",
+        "as"
+      ],
+      [
+        "at",
+        "é"
+      ],
+      [
+        "at",
+        "ribua"
+      ],
+      [
+        "at",
+        "mos"
+      ],
+      [
+        "ant",
+        "ig"
+      ],
+      [
+        "me",
+        "cânica"
+      ],
+      [
+        "ur",
+        "os"
+      ],
+      [
+        "so",
+        "a"
+      ],
+      [
+        "simula",
+        "ção"
+      ],
+      [
+        "ve",
+        "locidade"
+      ],
+      [
+        "ns",
+        "for"
+      ],
+      [
+        "áti",
+        "co"
+      ],
+      [
+        "mi",
+        "a"
+      ],
+      [
+        "mi",
+        "t"
+      ],
+      [
+        "mi",
+        "cos"
+      ],
+      [
+        "mi",
+        "ze"
+      ],
+      [
+        "su",
+        "per"
+      ],
+      [
+        "su",
+        "pera"
+      ],
+      [
+        "su",
+        "bterr"
+      ],
+      [
+        "mo",
+        "der"
+      ],
+      [
+        "mo",
+        "ral"
+      ],
+      [
+        "tem",
+        "ático"
+      ],
+      [
+        "ei",
+        "ro"
+      ],
+      [
+        "ei",
+        "ras"
+      ],
+      [
+        "ei",
+        "ros"
+      ],
+      [
+        "lu",
+        "te"
+      ],
+      [
+        "cri",
+        "e"
+      ],
+      [
+        "cri",
+        "ar"
+      ],
+      [
+        "cons",
+        "ta"
+      ],
+      [
+        "cu",
+        "ida"
+      ],
+      [
+        "fi",
+        "cção"
+      ],
+      [
+        "for",
+        "ja"
+      ],
+      [
+        "tre",
+        "ina"
+      ],
+      [
+        "bas",
+        "es"
+      ],
+      [
+        "fa",
+        "zen"
+      ],
+      [
+        "col",
+        "on"
+      ],
+      [
+        "rig",
+        "o"
+      ],
+      [
+        "avent",
+        "ure"
+      ],
+      [
+        "ab",
+        "rigo"
+      ],
+      [
+        "ag",
+        "em"
+      ],
+      [
+        "ag",
+        "ens"
+      ],
+      [
+        "fu",
+        "ndo"
+      ],
+      [
+        "fu",
+        "turis"
+      ],
+      [
+        "ga",
+        "dge"
+      ],
+      [
+        "má",
+        "gico"
+      ],
+      [
+        "pes",
+        "soa"
+      ],
+      [
+        "pro",
+        "fu"
+      ],
+      [
+        "pro",
+        "tagon"
+      ],
+      [
+        "ter",
+        "ra"
+      ],
+      [
+        "vas",
+        "to"
+      ],
+      [
+        "evi",
+        "ta"
+      ],
+      [
+        "evi",
+        "tar"
+      ],
+      [
+        "mist",
+        "ura"
+      ],
+      [
+        "pla",
+        "ntas"
+      ],
+      [
+        "si",
+        "co"
+      ],
+      [
+        "si",
+        "ca"
+      ],
+      [
+        "espaci",
+        "ais"
+      ],
+      [
+        "explora",
+        "r"
+      ],
+      [
+        "fantas",
+        "mas"
+      ],
+      [
+        "dra",
+        "g"
+      ],
+      [
+        "fe",
+        "licidade"
+      ],
+      [
+        "ita",
+        "ntes"
+      ],
+      [
+        "lti",
+        "ve"
+      ],
+      [
+        "per",
+        "dida"
+      ],
+      [
+        "pres",
+        "são"
+      ],
+      [
+        "ru",
+        "ínas"
+      ],
+      [
+        "par",
+        "que"
+      ],
+      [
+        "arte",
+        "fat"
+      ],
+      [
+        "som",
+        "bra"
+      ],
+      [
+        "som",
+        "bras"
+      ],
+      [
+        "históri",
+        "a"
+      ],
+      [
+        "cl",
+        "ás"
+      ],
+      [
+        "mí",
+        "ticas"
+      ],
+      [
+        "ôni",
+        "cas"
+      ],
+      [
+        "ass",
+        "ent"
+      ],
+      [
+        "inf",
+        "inita"
+      ],
+      [
+        "resga",
+        "tar"
+      ],
+      [
+        "pode",
+        "res"
+      ],
+      [
+        "base",
+        "ado"
+      ],
+      [
+        "mági",
+        "ca"
+      ],
+      [
+        "mági",
+        "cos"
+      ],
+      [
+        "sobre",
+        "viv"
+      ],
+      [
+        "mistéri",
+        "o"
+      ],
+      [
+        "mistéri",
+        "os"
+      ],
+      [
+        "posi",
+        "cion"
+      ],
+      [
+        "bus",
+        "ca"
+      ],
+      [
+        "din",
+        "agem"
+      ],
+      [
+        "fí",
+        "sica"
+      ],
+      [
+        "mer",
+        "cenári"
+      ],
+      [
+        "pr",
+        "ópri"
+      ],
+      [
+        "tor",
+        "re"
+      ],
+      [
+        "esp",
+        "éci"
+      ],
+      [
+        "cal",
+        "or"
+      ],
+      [
+        "tecn",
+        "ologia"
+      ],
+      [
+        "moviment",
+        "ada"
+      ],
+      [
+        "masmor",
+        "ras"
+      ],
+      [
+        "nego",
+        "cie"
+      ],
+      [
+        "pesquis",
+        "e"
+      ],
+      [
+        "procedural",
+        "mente"
+      ],
+      [
+        "element",
+        "os"
+      ],
+      [
+        "ambi",
+        "ent"
+      ],
+      [
+        "aére",
+        "os"
+      ],
+      [
+        "aprimo",
+        "re"
+      ],
+      [
+        "lendári",
+        "as"
+      ],
+      [
+        "rogueli",
+        "te"
+      ],
+      [
+        "Cu",
+        "ltive"
+      ],
+      [
+        "Cri",
+        "e"
+      ],
+      [
+        "FP",
+        "S"
+      ],
+      [
+        "Pi",
+        "lote"
+      ],
+      [
+        "ame",
+        "a"
+      ],
+      [
+        "cli",
+        "entes"
+      ],
+      [
+        "cós",
+        "micos"
+      ],
+      [
+        "due",
+        "los"
+      ],
+      [
+        "dbo",
+        "x"
+      ],
+      [
+        "flo",
+        "resta"
+      ],
+      [
+        "fur",
+        "tividade"
+      ],
+      [
+        "fei",
+        "tiços"
+      ],
+      [
+        "féri",
+        "co"
+      ],
+      [
+        "ferra",
+        "mentas"
+      ],
+      [
+        "hi",
+        "dro"
+      ],
+      [
+        "inte",
+        "ra"
+      ],
+      [
+        "jo",
+        "v"
+      ],
+      [
+        "jar",
+        "dinagem"
+      ],
+      [
+        "oce",
+        "ano"
+      ],
+      [
+        "san",
+        "dbox"
+      ],
+      [
+        "sist",
+        "em"
+      ],
+      [
+        "tum",
+        "bas"
+      ],
+      [
+        "tur",
+        "nos"
+      ],
+      [
+        "vis",
+        "itantes"
+      ],
+      [
+        "vali",
+        "osos"
+      ],
+      [
+        "deus",
+        "es"
+      ],
+      [
+        "cient",
+        "ífica"
+      ],
+      [
+        "pape",
+        "l"
+      ],
+      [
+        "enig",
+        "mas"
+      ],
+      [
+        "invas",
+        "ores"
+      ],
+      [
+        "desafi",
+        "os"
+      ],
+      [
+        "descobri",
+        "r"
+      ],
+      [
+        "secre",
+        "tas"
+      ],
+      [
+        "peix",
+        "es"
+      ],
+      [
+        "extre",
+        "mas"
+      ],
+      [
+        "exérci",
+        "to"
+      ],
+      [
+        "robô",
+        "s"
+      ],
+      [
+        "atmos",
+        "férico"
+      ],
+      [
+        "subterr",
+        "âne"
+      ],
+      [
+        "moder",
+        "no"
+      ],
+      [
+        "aventure",
+        "iros"
+      ],
+      [
+        "gadge",
+        "ts"
+      ],
+      [
+        "protagon",
+        "ista"
+      ],
+      [
+        "artefat",
+        "os"
+      ],
+      [
+        "clás",
+        "sico"
+      ],
+      [
+        "espéci",
+        "es"
+      ],
+      [
+        "1",
+        "v"
+      ],
+      [
+        "4",
+        "X"
+      ],
+      [
+        "C",
+        "a"
+      ],
+      [
+        "C",
+        "or"
+      ],
+      [
+        "C",
+        "ada"
+      ],
+      [
+        "C",
+        "usto"
+      ],
+      [
+        "D",
+        "es"
+      ],
+      [
+        "D",
+        "ist"
+      ],
+      [
+        "D",
+        "ef"
+      ],
+      [
+        "E",
+        "n"
+      ],
+      [
+        "E",
+        "s"
+      ],
+      [
+        "E",
+        "nt"
+      ],
+      [
+        "F",
+        "re"
+      ],
+      [
+        "G",
+        "a"
+      ],
+      [
+        "J",
+        "on"
+      ],
+      [
+        "J",
+        "ap"
+      ],
+      [
+        "M",
+        "a"
+      ],
+      [
+        "M",
+        "u"
+      ],
+      [
+        "M",
+        "ant"
+      ],
+      [
+        "M",
+        "ani"
+      ],
+      [
+        "M",
+        "arte"
+      ],
+      [
+        "O",
+        "r"
+      ],
+      [
+        "O",
+        "es"
+      ],
+      [
+        "P",
+        "u"
+      ],
+      [
+        "P",
+        "as"
+      ],
+      [
+        "P",
+        "es"
+      ],
+      [
+        "P",
+        "ri"
+      ],
+      [
+        "P",
+        "er"
+      ],
+      [
+        "Q",
+        "ua"
+      ],
+      [
+        "R",
+        "es"
+      ],
+      [
+        "R",
+        "ex"
+      ],
+      [
+        "S",
+        "a"
+      ],
+      [
+        "S",
+        "o"
+      ],
+      [
+        "S",
+        "ir"
+      ],
+      [
+        "T",
+        "ra"
+      ],
+      [
+        "T",
+        "or"
+      ],
+      [
+        "T",
+        "rein"
+      ],
+      [
+        "V",
+        "ia"
+      ],
+      [
+        "V",
+        "el"
+      ],
+      [
+        "a",
+        "co"
+      ],
+      [
+        "a",
+        "pa"
+      ],
+      [
+        "a",
+        "res"
+      ],
+      [
+        "a",
+        "di"
+      ],
+      [
+        "a",
+        "po"
+      ],
+      [
+        "a",
+        "dor"
+      ],
+      [
+        "a",
+        "dos"
+      ],
+      [
+        "a",
+        "ve"
+      ],
+      [
+        "a",
+        "cos"
+      ],
+      [
+        "a",
+        "va"
+      ],
+      [
+        "a",
+        "tivo"
+      ],
+      [
+        "a",
+        "ria"
+      ],
+      [
+        "a",
+        "cade"
+      ],
+      [
+        "a",
+        "uto"
+      ],
+      [
+        "a",
+        "tiva"
+      ],
+      [
+        "b",
+        "is"
+      ],
+      [
+        "b",
+        "er"
+      ],
+      [
+        "b",
+        "on"
+      ],
+      [
+        "b",
+        "or"
+      ],
+      [
+        "b",
+        "ula"
+      ],
+      [
+        "b",
+        "ru"
+      ],
+      [
+        "c",
+        "ó"
+      ],
+      [
+        "c",
+        "es"
+      ],
+      [
+        "c",
+        "em"
+      ],
+      [
+        "c",
+        "ta"
+      ],
+      [
+        "c",
+        "er"
+      ],
+      [
+        "c",
+        "res"
+      ],
+      [
+        "c",
+        "ula"
+      ],
+      [
+        "c",
+        "ha"
+      ],
+      [
+        "c",
+        "has"
+      ],
+      [
+        "c",
+        "ções"
+      ],
+      [
+        "c",
+        "estra"
+      ],
+      [
+        "c",
+        "usto"
+      ],
+      [
+        "d",
+        "r"
+      ],
+      [
+        "d",
+        "u"
+      ],
+      [
+        "d",
+        "á"
+      ],
+      [
+        "d",
+        "ã"
+      ],
+      [
+        "d",
+        "ão"
+      ],
+      [
+        "d",
+        "im"
+      ],
+      [
+        "d",
+        "ist"
+      ],
+      [
+        "d",
+        "ista"
+      ],
+      [
+        "d",
+        "ênci"
+      ],
+      [
+        "e",
+        "u"
+      ],
+      [
+        "e",
+        "co"
+      ],
+      [
+        "e",
+        "tr"
+      ],
+      [
+        "e",
+        "cos"
+      ],
+      [
+        "e",
+        "fi"
+      ],
+      [
+        "e",
+        "tas"
+      ],
+      [
+        "e",
+        "tar"
+      ],
+      [
+        "e",
+        "tos"
+      ],
+      [
+        "e",
+        "val"
+      ],
+      [
+        "e",
+        "du"
+      ],
+      [
+        "f",
+        "as"
+      ],
+      [
+        "f",
+        "os"
+      ],
+      [
+        "f",
+        "en"
+      ],
+      [
+        "f",
+        "og"
+      ],
+      [
+        "f",
+        "er"
+      ],
+      [
+        "f",
+        "ar"
+      ],
+      [
+        "f",
+        "av"
+      ],
+      [
+        "g",
+        "l"
+      ],
+      [
+        "g",
+        "os"
+      ],
+      [
+        "g",
+        "ri"
+      ],
+      [
+        "g",
+        "um"
+      ],
+      [
+        "g",
+        "em"
+      ],
+      [
+        "g",
+        "an"
+      ],
+      [
+        "g",
+        "la"
+      ],
+      [
+        "g",
+        "res"
+      ],
+      [
+        "g",
+        "ol"
+      ],
+      [
+        "g",
+        "ação"
+      ],
+      [
+        "g",
+        "ru"
+      ],
+      [
+        "g",
+        "eiras"
+      ],
+      [
+        "h",
+        "o"
+      ],
+      [
+        "h",
+        "w"
+      ],
+      [
+        "h",
+        "os"
+      ],
+      [
+        "h",
+        "or"
+      ],
+      [
+        "h",
+        "ando"
+      ],
+      [
+        "h",
+        "ei"
+      ],
+      [
+        "i",
+        "e"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "i",
+        "as"
+      ],
+      [
+        "i",
+        "ca"
+      ],
+      [
+        "i",
+        "des"
+      ],
+      [
+        "i",
+        "ro"
+      ],
+      [
+        "i",
+        "dos"
+      ],
+      [
+        "i",
+        "ba"
+      ],
+      [
+        "i",
+        "ais"
+      ],
+      [
+        "i",
+        "lhas"
+      ],
+      [
+        "i",
+        "ço"
+      ],
+      [
+        "j",
+        "osos"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "k",
+        "k"
+      ],
+      [
+        "k",
+        "ing"
+      ],
+      [
+        "l",
+        "y"
+      ],
+      [
+        "l",
+        "og"
+      ],
+      [
+        "l",
+        "an"
+      ],
+      [
+        "l",
+        "ar"
+      ],
+      [
+        "l",
+        "ões"
+      ],
+      [
+        "l",
+        "tra"
+      ],
+      [
+        "l",
+        "esti"
+      ],
+      [
+        "l",
+        "cânica"
+      ],
+      [
+        "l",
+        "êni"
+      ],
+      [
+        "m",
+        "es"
+      ],
+      [
+        "m",
+        "is"
+      ],
+      [
+        "m",
+        "an"
+      ],
+      [
+        "m",
+        "on"
+      ],
+      [
+        "m",
+        "ando"
+      ],
+      [
+        "m",
+        "bra"
+      ],
+      [
+        "m",
+        "ali"
+      ],
+      [
+        "m",
+        "ani"
+      ],
+      [
+        "m",
+        "esti"
+      ],
+      [
+        "m",
+        "ana"
+      ],
+      [
+        "n",
+        "ç"
+      ],
+      [
+        "n",
+        "de"
+      ],
+      [
+        "n",
+        "or"
+      ],
+      [
+        "n",
+        "at"
+      ],
+      [
+        "n",
+        "dos"
+      ],
+      [
+        "n",
+        "ha"
+      ],
+      [
+        "n",
+        "has"
+      ],
+      [
+        "n",
+        "ques"
+      ],
+      [
+        "n",
+        "ces"
+      ],
+      [
+        "n",
+        "geiras"
+      ],
+      [
+        "o",
+        "p"
+      ],
+      [
+        "o",
+        "x"
+      ],
+      [
+        "o",
+        "ra"
+      ],
+      [
+        "o",
+        "ti"
+      ],
+      [
+        "o",
+        "te"
+      ],
+      [
+        "o",
+        "dos"
+      ],
+      [
+        "o",
+        "mas"
+      ],
+      [
+        "o",
+        "pres"
+      ],
+      [
+        "o",
+        "pera"
+      ],
+      [
+        "o",
+        "fere"
+      ],
+      [
+        "o",
+        "bras"
+      ],
+      [
+        "o",
+        "lado"
+      ],
+      [
+        "o",
+        "ides"
+      ],
+      [
+        "p",
+        "ú"
+      ],
+      [
+        "p",
+        "as"
+      ],
+      [
+        "p",
+        "ia"
+      ],
+      [
+        "p",
+        "éri"
+      ],
+      [
+        "p",
+        "si"
+      ],
+      [
+        "p",
+        "ita"
+      ],
+      [
+        "p",
+        "ix"
+      ],
+      [
+        "p",
+        "ico"
+      ],
+      [
+        "p",
+        "tura"
+      ],
+      [
+        "p",
+        "ônicas"
+      ],
+      [
+        "p",
+        "ica"
+      ],
+      [
+        "r",
+        "um"
+      ],
+      [
+        "r",
+        "og"
+      ],
+      [
+        "r",
+        "on"
+      ],
+      [
+        "r",
+        "ão"
+      ],
+      [
+        "r",
+        "us"
+      ],
+      [
+        "r",
+        "ni"
+      ],
+      [
+        "r",
+        "cu"
+      ],
+      [
+        "r",
+        "ros"
+      ],
+      [
+        "s",
+        "y"
+      ],
+      [
+        "s",
+        "ó"
+      ],
+      [
+        "s",
+        "ci"
+      ],
+      [
+        "s",
+        "er"
+      ],
+      [
+        "s",
+        "on"
+      ],
+      [
+        "s",
+        "te"
+      ],
+      [
+        "s",
+        "or"
+      ],
+      [
+        "s",
+        "ol"
+      ],
+      [
+        "s",
+        "us"
+      ],
+      [
+        "s",
+        "at"
+      ],
+      [
+        "s",
+        "ab"
+      ],
+      [
+        "s",
+        "tica"
+      ],
+      [
+        "s",
+        "tá"
+      ],
+      [
+        "s",
+        "ticos"
+      ],
+      [
+        "t",
+        "ent"
+      ],
+      [
+        "t",
+        "ão"
+      ],
+      [
+        "t",
+        "ua"
+      ],
+      [
+        "t",
+        "íveis"
+      ],
+      [
+        "u",
+        "de"
+      ],
+      [
+        "u",
+        "da"
+      ],
+      [
+        "u",
+        "se"
+      ],
+      [
+        "u",
+        "na"
+      ],
+      [
+        "u",
+        "bos"
+      ],
+      [
+        "u",
+        "idades"
+      ],
+      [
+        "u",
+        "vos"
+      ],
+      [
+        "u",
+        "lcânica"
+      ],
+      [
+        "v",
+        "ê"
+      ],
+      [
+        "v",
+        "í"
+      ],
+      [
+        "v",
+        "in"
+      ],
+      [
+        "v",
+        "ol"
+      ],
+      [
+        "v",
+        "ista"
+      ],
+      [
+        "v",
+        "ante"
+      ],
+      [
+        "v",
+        "esti"
+      ],
+      [
+        "v",
+        "ulcânica"
+      ],
+      [
+        "w",
+        "er"
+      ],
+      [
+        "x",
+        "o"
+      ],
+      [
+        "x",
+        "to"
+      ],
+      [
+        "x",
+        "ad"
+      ],
+      [
+        "x",
+        "aria"
+      ],
+      [
+        "z",
+        "a"
+      ],
+      [
+        "z",
+        "um"
+      ],
+      [
+        "z",
+        "er"
+      ],
+      [
+        "z",
+        "ando"
+      ],
+      [
+        "z",
+        "enda"
+      ],
+      [
+        "z",
+        "ada"
+      ],
+      [
+        "à",
+        "s"
+      ],
+      [
+        "á",
+        "fe"
+      ],
+      [
+        "á",
+        "veis"
+      ],
+      [
+        "â",
+        "nt"
+      ],
+      [
+        "é",
+        "po"
+      ],
+      [
+        "é",
+        "pica"
+      ],
+      [
+        "ê",
+        "s"
+      ],
+      [
+        "í",
+        "ri"
+      ],
+      [
+        "í",
+        "tica"
+      ],
+      [
+        "í",
+        "acos"
+      ],
+      [
+        "í",
+        "odos"
+      ],
+      [
+        "í",
+        "stica"
+      ],
+      [
+        "ó",
+        "gi"
+      ],
+      [
+        "ó",
+        "pera"
+      ],
+      [
+        "ó",
+        "ticos"
+      ],
+      [
+        "ó",
+        "pico"
+      ],
+      [
+        "ô",
+        "men"
+      ],
+      [
+        "ú",
+        "de"
+      ],
+      [
+        "ú",
+        "lti"
+      ],
+      [
+        "de",
+        "te"
+      ],
+      [
+        "de",
+        "ndo"
+      ],
+      [
+        "de",
+        "nte"
+      ],
+      [
+        "de",
+        "mon"
+      ],
+      [
+        "as",
+        "so"
+      ],
+      [
+        "as",
+        "ter"
+      ],
+      [
+        "as",
+        "fal"
+      ],
+      [
+        "as",
+        "sombra"
+      ],
+      [
+        "re",
+        "z"
+      ],
+      [
+        "re",
+        "pa"
+      ],
+      [
+        "re",
+        "pe"
+      ],
+      [
+        "re",
+        "di"
+      ],
+      [
+        "re",
+        "dor"
+      ],
+      [
+        "re",
+        "dos"
+      ],
+      [
+        "re",
+        "pl"
+      ],
+      [
+        "re",
+        "tas"
+      ],
+      [
+        "re",
+        "nda"
+      ],
+      [
+        "re",
+        "trô"
+      ],
+      [
+        "re",
+        "fas"
+      ],
+      [
+        "ra",
+        "es"
+      ],
+      [
+        "ra",
+        "do"
+      ],
+      [
+        "ra",
+        "in"
+      ],
+      [
+        "ra",
+        "di"
+      ],
+      [
+        "ra",
+        "ras"
+      ],
+      [
+        "ra",
+        "ças"
+      ],
+      [
+        "ra",
+        "ções"
+      ],
+      [
+        "ra",
+        "nta"
+      ],
+      [
+        "ra",
+        "josos"
+      ],
+      [
+        "os",
+        "o"
+      ],
+      [
+        "os",
+        "sa"
+      ],
+      [
+        "nt",
+        "ri"
+      ],
+      [
+        "nt",
+        "ando"
+      ],
+      [
+        "nt",
+        "enha"
+      ],
+      [
+        "nt",
+        "hw"
+      ],
+      [
+        "co",
+        "lo"
+      ],
+      [
+        "co",
+        "lhas"
+      ],
+      [
+        "co",
+        "ne"
+      ],
+      [
+        "co",
+        "tes"
+      ],
+      [
+        "co",
+        "ntos"
+      ],
+      [
+        "co",
+        "ndi"
+      ],
+      [
+        "co",
+        "opera"
+      ],
+      [
+        "co",
+        "rajosos"
+      ],
+      [
+        "es",
+        "a"
+      ],
+      [
+        "es",
+        "qu"
+      ],
+      [
+        "es",
+        "pe"
+      ],
+      [
+        "es",
+        "cas"
+      ],
+      [
+        "es",
+        "cu"
+      ],
+      [
+        "es",
+        "té"
+      ],
+      [
+        "es",
+        "mag"
+      ],
+      [
+        "es",
+        "tá"
+      ],
+      [
+        "es",
+        "colhas"
+      ],
+      [
+        "ri",
+        "as"
+      ],
+      [
+        "ri",
+        "os"
+      ],
+      [
+        "ri",
+        "que"
+      ],
+      [
+        "ri",
+        "ções"
+      ],
+      [
+        "ri",
+        "ntos"
+      ],
+      [
+        "ri",
+        "dão"
+      ],
+      [
+        "ri",
+        "nha"
+      ],
+      [
+        "do",
+        "res"
+      ],
+      [
+        "do",
+        "min"
+      ],
+      [
+        "do",
+        "mine"
+      ],
+      [
+        "do",
+        "cum"
+      ],
+      [
+        "do",
+        "mesti"
+      ],
+      [
+        "um",
+        "ina"
+      ],
+      [
+        "ci",
+        "as"
+      ],
+      [
+        "ci",
+        "da"
+      ],
+      [
+        "ci",
+        "ando"
+      ],
+      [
+        "ci",
+        "ças"
+      ],
+      [
+        "ci",
+        "ali"
+      ],
+      [
+        "ci",
+        "ente"
+      ],
+      [
+        "ci",
+        "ber"
+      ],
+      [
+        "ci",
+        "rcu"
+      ],
+      [
+        "da",
+        "dos"
+      ],
+      [
+        "da",
+        "nos"
+      ],
+      [
+        "da",
+        "ria"
+      ],
+      [
+        "da",
+        "nça"
+      ],
+      [
+        "is",
+        "fazen"
+      ],
+      [
+        "is",
+        "agens"
+      ],
+      [
+        "is",
+        "eu"
+      ],
+      [
+        "is",
+        "olado"
+      ],
+      [
+        "Um",
+        "a"
+      ],
+      [
+        "ta",
+        "res"
+      ],
+      [
+        "ta",
+        "des"
+      ],
+      [
+        "ta",
+        "li"
+      ],
+      [
+        "ta",
+        "be"
+      ],
+      [
+        "ta",
+        "ver"
+      ],
+      [
+        "ta",
+        "ure"
+      ],
+      [
+        "ta",
+        "mente"
+      ],
+      [
+        "ta",
+        "nques"
+      ],
+      [
+        "ta",
+        "refas"
+      ],
+      [
+        "ca",
+        "da"
+      ],
+      [
+        "ca",
+        "is"
+      ],
+      [
+        "ca",
+        "ti"
+      ],
+      [
+        "ca",
+        "ção"
+      ],
+      [
+        "ca",
+        "ma"
+      ],
+      [
+        "ca",
+        "ndo"
+      ],
+      [
+        "ca",
+        "min"
+      ],
+      [
+        "ca",
+        "rav"
+      ],
+      [
+        "ca",
+        "bro"
+      ],
+      [
+        "ca",
+        "nç"
+      ],
+      [
+        "ca",
+        "ptura"
+      ],
+      [
+        "ca",
+        "rros"
+      ],
+      [
+        "pa",
+        "ndo"
+      ],
+      [
+        "pa",
+        "gantes"
+      ],
+      [
+        "pa",
+        "nhas"
+      ],
+      [
+        "pa",
+        "cotes"
+      ],
+      [
+        "pa",
+        "daria"
+      ],
+      [
+        "pa",
+        "isagens"
+      ],
+      [
+        "ti",
+        "l"
+      ],
+      [
+        "ti",
+        "no"
+      ],
+      [
+        "ti",
+        "tivo"
+      ],
+      [
+        "ti",
+        "fica"
+      ],
+      [
+        "ti",
+        "ves"
+      ],
+      [
+        "ti",
+        "cula"
+      ],
+      [
+        "ti",
+        "gres"
+      ],
+      [
+        "ti",
+        "zada"
+      ],
+      [
+        "en",
+        "er"
+      ],
+      [
+        "en",
+        "com"
+      ],
+      [
+        "en",
+        "contra"
+      ],
+      [
+        "en",
+        "der"
+      ],
+      [
+        "en",
+        "fre"
+      ],
+      [
+        "en",
+        "gen"
+      ],
+      [
+        "en",
+        "vol"
+      ],
+      [
+        "en",
+        "dendo"
+      ],
+      [
+        "ent",
+        "reg"
+      ],
+      [
+        "an",
+        "de"
+      ],
+      [
+        "an",
+        "at"
+      ],
+      [
+        "an",
+        "cestra"
+      ],
+      [
+        "er",
+        "ta"
+      ],
+      [
+        "er",
+        "te"
+      ],
+      [
+        "er",
+        "si"
+      ],
+      [
+        "er",
+        "up"
+      ],
+      [
+        "qu",
+        "ar"
+      ],
+      [
+        "qu",
+        "in"
+      ],
+      [
+        "qu",
+        "ais"
+      ],
+      [
+        "qu",
+        "ente"
+      ],
+      [
+        "qu",
+        "ânt"
+      ],
+      [
+        "com",
+        "pe"
+      ],
+      [
+        "com",
+        "ando"
+      ],
+      [
+        "com",
+        "bos"
+      ],
+      [
+        "com",
+        "pra"
+      ],
+      [
+        "ar",
+        "t"
+      ],
+      [
+        "ar",
+        "di"
+      ],
+      [
+        "ar",
+        "das"
+      ],
+      [
+        "ar",
+        "ras"
+      ],
+      [
+        "ar",
+        "mar"
+      ],
+      [
+        "on",
+        "das"
+      ],
+      [
+        "on",
+        "entes"
+      ],
+      [
+        "on",
+        "lin"
+      ],
+      [
+        "on",
+        "ogra"
+      ],
+      [
+        "te",
+        "los"
+      ],
+      [
+        "te",
+        "ja"
+      ],
+      [
+        "te",
+        "xto"
+      ],
+      [
+        "al",
+        "to"
+      ],
+      [
+        "al",
+        "iment"
+      ],
+      [
+        "al",
+        "gum"
+      ],
+      [
+        "al",
+        "canç"
+      ],
+      [
+        "in",
+        "em"
+      ],
+      [
+        "in",
+        "im"
+      ],
+      [
+        "in",
+        "fi"
+      ],
+      [
+        "in",
+        "amento"
+      ],
+      [
+        "in",
+        "curs"
+      ],
+      [
+        "in",
+        "uto"
+      ],
+      [
+        "in",
+        "vesti"
+      ],
+      [
+        "in",
+        "ês"
+      ],
+      [
+        "la",
+        "da"
+      ],
+      [
+        "la",
+        "res"
+      ],
+      [
+        "la",
+        "bi"
+      ],
+      [
+        "la",
+        "dr"
+      ],
+      [
+        "la",
+        "gos"
+      ],
+      [
+        "jog",
+        "ador"
+      ],
+      [
+        "or",
+        "t"
+      ],
+      [
+        "or",
+        "oso"
+      ],
+      [
+        "or",
+        "tali"
+      ],
+      [
+        "ere",
+        "ste"
+      ],
+      [
+        "res",
+        "ist"
+      ],
+      [
+        "res",
+        "ort"
+      ],
+      [
+        "im",
+        "áti"
+      ],
+      [
+        "im",
+        "péri"
+      ],
+      [
+        "im",
+        "ersi"
+      ],
+      [
+        "im",
+        "ortali"
+      ],
+      [
+        "des",
+        "de"
+      ],
+      [
+        "des",
+        "li"
+      ],
+      [
+        "des",
+        "tru"
+      ],
+      [
+        "des",
+        "erto"
+      ],
+      [
+        "des",
+        "tro"
+      ],
+      [
+        "des",
+        "enha"
+      ],
+      [
+        "des",
+        "venda"
+      ],
+      [
+        "des",
+        "tino"
+      ],
+      [
+        "des",
+        "envol"
+      ],
+      [
+        "des",
+        "erta"
+      ],
+      [
+        "para",
+        "nor"
+      ],
+      [
+        "tr",
+        "ás"
+      ],
+      [
+        "tr",
+        "áfe"
+      ],
+      [
+        "ol",
+        "eiro"
+      ],
+      [
+        "ol",
+        "ógi"
+      ],
+      [
+        "se",
+        "z"
+      ],
+      [
+        "se",
+        "cu"
+      ],
+      [
+        "se",
+        "gui"
+      ],
+      [
+        "vi",
+        "o"
+      ],
+      [
+        "vi",
+        "r"
+      ],
+      [
+        "vi",
+        "dos"
+      ],
+      [
+        "vi",
+        "ári"
+      ],
+      [
+        "vi",
+        "aj"
+      ],
+      [
+        "vi",
+        "king"
+      ],
+      [
+        "vi",
+        "lões"
+      ],
+      [
+        "pe",
+        "ças"
+      ],
+      [
+        "pe",
+        "los"
+      ],
+      [
+        "pe",
+        "itos"
+      ],
+      [
+        "pe",
+        "didos"
+      ],
+      [
+        "di",
+        "ção"
+      ],
+      [
+        "di",
+        "gi"
+      ],
+      [
+        "di",
+        "rig"
+      ],
+      [
+        "di",
+        "ana"
+      ],
+      [
+        "di",
+        "adores"
+      ],
+      [
+        "di",
+        "eval"
+      ],
+      [
+        "di",
+        "vin"
+      ],
+      [
+        "li",
+        "a"
+      ],
+      [
+        "li",
+        "r"
+      ],
+      [
+        "li",
+        "tares"
+      ],
+      [
+        "ex",
+        "cê"
+      ],
+      [
+        "ex",
+        "ig"
+      ],
+      [
+        "ex",
+        "posi"
+      ],
+      [
+        "ex",
+        "iba"
+      ],
+      [
+        "ex",
+        "óticos"
+      ],
+      [
+        "ma",
+        "pa"
+      ],
+      [
+        "ma",
+        "mu"
+      ],
+      [
+        "ma",
+        "ntenha"
+      ],
+      [
+        "ma",
+        "ciças"
+      ],
+      [
+        "ma",
+        "cabro"
+      ],
+      [
+        "ma",
+        "tizada"
+      ],
+      [
+        "ro",
+        "tas"
+      ],
+      [
+        "ro",
+        "tar"
+      ],
+      [
+        "ro",
+        "mana"
+      ],
+      [
+        "ro",
+        "ubos"
+      ],
+      [
+        "ro",
+        "viári"
+      ],
+      [
+        "gi",
+        "r"
+      ],
+      [
+        "gi",
+        "as"
+      ],
+      [
+        "gerenci",
+        "a"
+      ],
+      [
+        "po",
+        "us"
+      ],
+      [
+        "po",
+        "ções"
+      ],
+      [
+        "po",
+        "wer"
+      ],
+      [
+        "po",
+        "rações"
+      ],
+      [
+        "us",
+        "a"
+      ],
+      [
+        "lo",
+        "ja"
+      ],
+      [
+        "lo",
+        "cais"
+      ],
+      [
+        "que",
+        "ie"
+      ],
+      [
+        "ment",
+        "o"
+      ],
+      [
+        "at",
+        "rain"
+      ],
+      [
+        "at",
+        "endendo"
+      ],
+      [
+        "me",
+        "l"
+      ],
+      [
+        "me",
+        "ce"
+      ],
+      [
+        "me",
+        "ga"
+      ],
+      [
+        "me",
+        "lha"
+      ],
+      [
+        "me",
+        "trô"
+      ],
+      [
+        "me",
+        "chas"
+      ],
+      [
+        "me",
+        "iro"
+      ],
+      [
+        "me",
+        "dieval"
+      ],
+      [
+        "vo",
+        "e"
+      ],
+      [
+        "vo",
+        "ado"
+      ],
+      [
+        "to",
+        "po"
+      ],
+      [
+        "to",
+        "que"
+      ],
+      [
+        "ur",
+        "ban"
+      ],
+      [
+        "ando",
+        "na"
+      ],
+      [
+        "so",
+        "ura"
+      ],
+      [
+        "so",
+        "ciali"
+      ],
+      [
+        "cas",
+        "os"
+      ],
+      [
+        "cas",
+        "telos"
+      ],
+      [
+        "ha",
+        "das"
+      ],
+      [
+        "ha",
+        "ria"
+      ],
+      [
+        "ns",
+        "ão"
+      ],
+      [
+        "ns",
+        "por"
+      ],
+      [
+        "ura",
+        "nça"
+      ],
+      [
+        "ça",
+        "m"
+      ],
+      [
+        "mi",
+        "as"
+      ],
+      [
+        "mi",
+        "zação"
+      ],
+      [
+        "mi",
+        "cr"
+      ],
+      [
+        "mi",
+        "tiva"
+      ],
+      [
+        "mi",
+        "lêni"
+      ],
+      [
+        "mi",
+        "litares"
+      ],
+      [
+        "su",
+        "pri"
+      ],
+      [
+        "mo",
+        "do"
+      ],
+      [
+        "mo",
+        "vidos"
+      ],
+      [
+        "no",
+        "ve"
+      ],
+      [
+        "no",
+        "vas"
+      ],
+      [
+        "no",
+        "vos"
+      ],
+      [
+        "no",
+        "mia"
+      ],
+      [
+        "pri",
+        "ndo"
+      ],
+      [
+        "pri",
+        "nces"
+      ],
+      [
+        "pri",
+        "meiro"
+      ],
+      [
+        "pri",
+        "mitiva"
+      ],
+      [
+        "tem",
+        "pes"
+      ],
+      [
+        "ei",
+        "as"
+      ],
+      [
+        "ei",
+        "ra"
+      ],
+      [
+        "ei",
+        "to"
+      ],
+      [
+        "lu",
+        "ência"
+      ],
+      [
+        "lu",
+        "xo"
+      ],
+      [
+        "mu",
+        "seu"
+      ],
+      [
+        "mu",
+        "dança"
+      ],
+      [
+        "tra",
+        "nsfor"
+      ],
+      [
+        "tra",
+        "iço"
+      ],
+      [
+        "tra",
+        "nspor"
+      ],
+      [
+        "va",
+        "da"
+      ],
+      [
+        "va",
+        "por"
+      ],
+      [
+        "cri",
+        "ação"
+      ],
+      [
+        "cri",
+        "ativo"
+      ],
+      [
+        "cri",
+        "mes"
+      ],
+      [
+        "na",
+        "ve"
+      ],
+      [
+        "na",
+        "ves"
+      ],
+      [
+        "na",
+        "vio"
+      ],
+      [
+        "cons",
+        "tró"
+      ],
+      [
+        "cons",
+        "erte"
+      ],
+      [
+        "be",
+        "bi"
+      ],
+      [
+        "bi",
+        "bli"
+      ],
+      [
+        "bi",
+        "omas"
+      ],
+      [
+        "cu",
+        "los"
+      ],
+      [
+        "cu",
+        "lti"
+      ],
+      [
+        "pl",
+        "as"
+      ],
+      [
+        "ros",
+        "as"
+      ],
+      [
+        "tempo",
+        "ral"
+      ],
+      [
+        "tempo",
+        "rais"
+      ],
+      [
+        "Con",
+        "quis"
+      ],
+      [
+        "ament",
+        "os"
+      ],
+      [
+        "ce",
+        "ba"
+      ],
+      [
+        "ce",
+        "lesti"
+      ],
+      [
+        "for",
+        "tifica"
+      ],
+      [
+        "min",
+        "áveis"
+      ],
+      [
+        "tre",
+        "ns"
+      ],
+      [
+        "tre",
+        "vas"
+      ],
+      [
+        "tre",
+        "inamento"
+      ],
+      [
+        "táti",
+        "cos"
+      ],
+      [
+        "real",
+        "idades"
+      ],
+      [
+        "ntra",
+        "te"
+      ],
+      [
+        "quebra",
+        "r"
+      ],
+      [
+        "fa",
+        "das"
+      ],
+      [
+        "fa",
+        "ça"
+      ],
+      [
+        "fa",
+        "mí"
+      ],
+      [
+        "fa",
+        "cções"
+      ],
+      [
+        "fa",
+        "una"
+      ],
+      [
+        "fa",
+        "zenda"
+      ],
+      [
+        "ne",
+        "ve"
+      ],
+      [
+        "ne",
+        "bu"
+      ],
+      [
+        "ver",
+        "so"
+      ],
+      [
+        "ver",
+        "dade"
+      ],
+      [
+        "ver",
+        "são"
+      ],
+      [
+        "ver",
+        "melha"
+      ],
+      [
+        "col",
+        "ete"
+      ],
+      [
+        "col",
+        "eta"
+      ],
+      [
+        "col",
+        "ógico"
+      ],
+      [
+        "col",
+        "ôni"
+      ],
+      [
+        "col",
+        "etar"
+      ],
+      [
+        "col",
+        "hei"
+      ],
+      [
+        "espa",
+        "das"
+      ],
+      [
+        "espa",
+        "ço"
+      ],
+      [
+        "estra",
+        "ngeiras"
+      ],
+      [
+        "rig",
+        "oroso"
+      ],
+      [
+        "avent",
+        "uras"
+      ],
+      [
+        "ab",
+        "andona"
+      ],
+      [
+        "ag",
+        "entes"
+      ],
+      [
+        "ag",
+        "ência"
+      ],
+      [
+        "ag",
+        "eiros"
+      ],
+      [
+        "ch",
+        "eg"
+      ],
+      [
+        "ch",
+        "ef"
+      ],
+      [
+        "ch",
+        "uvos"
+      ],
+      [
+        "ch",
+        "inês"
+      ],
+      [
+        "ch",
+        "eias"
+      ],
+      [
+        "fu",
+        "re"
+      ],
+      [
+        "ig",
+        "as"
+      ],
+      [
+        "ig",
+        "êni"
+      ],
+      [
+        "má",
+        "quin"
+      ],
+      [
+        "pes",
+        "ca"
+      ],
+      [
+        "tri",
+        "lha"
+      ],
+      [
+        "tri",
+        "bo"
+      ],
+      [
+        "tri",
+        "nch"
+      ],
+      [
+        "tri",
+        "bula"
+      ],
+      [
+        "ter",
+        "ras"
+      ],
+      [
+        "vas",
+        "soura"
+      ],
+      [
+        "óri",
+        "a"
+      ],
+      [
+        "óri",
+        "cas"
+      ],
+      [
+        "explo",
+        "re"
+      ],
+      [
+        "Co",
+        "ração"
+      ],
+      [
+        "Co",
+        "mece"
+      ],
+      [
+        "Co",
+        "ntrate"
+      ],
+      [
+        "el",
+        "etr"
+      ],
+      [
+        "evi",
+        "te"
+      ],
+      [
+        "evi",
+        "dênci"
+      ],
+      [
+        "int",
+        "ens"
+      ],
+      [
+        "int",
+        "ereste"
+      ],
+      [
+        "los",
+        "as"
+      ],
+      [
+        "tes",
+        "tes"
+      ],
+      [
+        "ós",
+        "pera"
+      ],
+      [
+        "der",
+        "ru"
+      ],
+      [
+        "der",
+        "rotar"
+      ],
+      [
+        "cor",
+        "ridas"
+      ],
+      [
+        "cor",
+        "retas"
+      ],
+      [
+        "cor",
+        "porações"
+      ],
+      [
+        "tru",
+        "tura"
+      ],
+      [
+        "tru",
+        "ques"
+      ],
+      [
+        "estraté",
+        "gias"
+      ],
+      [
+        "equipa",
+        "mento"
+      ],
+      [
+        "fantas",
+        "mag"
+      ],
+      [
+        "Col",
+        "iseu"
+      ],
+      [
+        "dra",
+        "kk"
+      ],
+      [
+        "fe",
+        "ridas"
+      ],
+      [
+        "fe",
+        "uda"
+      ],
+      [
+        "fo",
+        "ntes"
+      ],
+      [
+        "ge",
+        "ologia"
+      ],
+      [
+        "ge",
+        "rada"
+      ],
+      [
+        "ge",
+        "rado"
+      ],
+      [
+        "gu",
+        "erra"
+      ],
+      [
+        "gu",
+        "ardas"
+      ],
+      [
+        "lti",
+        "plas"
+      ],
+      [
+        "mor",
+        "te"
+      ],
+      [
+        "mor",
+        "tais"
+      ],
+      [
+        "per",
+        "íodos"
+      ],
+      [
+        "pres",
+        "os"
+      ],
+      [
+        "pres",
+        "sões"
+      ],
+      [
+        "def",
+        "enda"
+      ],
+      [
+        "def",
+        "esa"
+      ],
+      [
+        "def",
+        "ender"
+      ],
+      [
+        "def",
+        "inem"
+      ],
+      [
+        "def",
+        "eito"
+      ],
+      [
+        "cado",
+        "rias"
+      ],
+      [
+        "par",
+        "tici"
+      ],
+      [
+        "par",
+        "ticula"
+      ],
+      [
+        "olog",
+        "ias"
+      ],
+      [
+        "som",
+        "bri"
+      ],
+      [
+        "históri",
+        "as"
+      ],
+      [
+        "históri",
+        "co"
+      ],
+      [
+        "históri",
+        "cas"
+      ],
+      [
+        "Pro",
+        "teja"
+      ],
+      [
+        "cl",
+        "ã"
+      ],
+      [
+        "cl",
+        "imáti"
+      ],
+      [
+        "cen",
+        "do"
+      ],
+      [
+        "mí",
+        "sticos"
+      ],
+      [
+        "pol",
+        "ítica"
+      ],
+      [
+        "ôni",
+        "bus"
+      ],
+      [
+        "ral",
+        "ly"
+      ],
+      [
+        "esca",
+        "pe"
+      ],
+      [
+        "esca",
+        "par"
+      ],
+      [
+        "esca",
+        "var"
+      ],
+      [
+        "esca",
+        "lada"
+      ],
+      [
+        "esti",
+        "lo"
+      ],
+      [
+        "civi",
+        "l"
+      ],
+      [
+        "ano",
+        "mali"
+      ],
+      [
+        "anim",
+        "al"
+      ],
+      [
+        "inf",
+        "raes"
+      ],
+      [
+        "inf",
+        "luência"
+      ],
+      [
+        "resga",
+        "ta"
+      ],
+      [
+        "resga",
+        "te"
+      ],
+      [
+        "tro",
+        "ca"
+      ],
+      [
+        "tro",
+        "pas"
+      ],
+      [
+        "perig",
+        "osos"
+      ],
+      [
+        "pode",
+        "rosas"
+      ],
+      [
+        "bata",
+        "lha"
+      ],
+      [
+        "plan",
+        "etas"
+      ],
+      [
+        "alienígen",
+        "a"
+      ],
+      [
+        "sobre",
+        "nat"
+      ],
+      [
+        "inter",
+        "na"
+      ],
+      [
+        "inter",
+        "rog"
+      ],
+      [
+        "inter",
+        "vir"
+      ],
+      [
+        "inter",
+        "mináveis"
+      ],
+      [
+        "posi",
+        "tivo"
+      ],
+      [
+        "complex",
+        "as"
+      ],
+      [
+        "In",
+        "vista"
+      ],
+      [
+        "In",
+        "diana"
+      ],
+      [
+        "In",
+        "vada"
+      ],
+      [
+        "ap",
+        "ós"
+      ],
+      [
+        "ap",
+        "renda"
+      ],
+      [
+        "cre",
+        "tamente"
+      ],
+      [
+        "dis",
+        "pu"
+      ],
+      [
+        "dis",
+        "positivo"
+      ],
+      [
+        "dis",
+        "cretamente"
+      ],
+      [
+        "din",
+        "ossa"
+      ],
+      [
+        "eg",
+        "ante"
+      ],
+      [
+        "eg",
+        "íp"
+      ],
+      [
+        "fí",
+        "cie"
+      ],
+      [
+        "gani",
+        "ze"
+      ],
+      [
+        "le",
+        "ça"
+      ],
+      [
+        "mer",
+        "cadorias"
+      ],
+      [
+        "mar",
+        "ciais"
+      ],
+      [
+        "pr",
+        "óspera"
+      ],
+      [
+        "uni",
+        "dades"
+      ],
+      [
+        "uni",
+        "có"
+      ],
+      [
+        "uni",
+        "verso"
+      ],
+      [
+        "rede",
+        "nção"
+      ],
+      [
+        "rein",
+        "o"
+      ],
+      [
+        "rein",
+        "os"
+      ],
+      [
+        "esp",
+        "íri"
+      ],
+      [
+        "cion",
+        "ando"
+      ],
+      [
+        "cal",
+        "íp"
+      ],
+      [
+        "caça",
+        "m"
+      ],
+      [
+        "caça",
+        "das"
+      ],
+      [
+        "tecn",
+        "ologias"
+      ],
+      [
+        "resta",
+        "ure"
+      ],
+      [
+        "seg",
+        "uros"
+      ],
+      [
+        "seg",
+        "redos"
+      ],
+      [
+        "seg",
+        "urança"
+      ],
+      [
+        "mag",
+        "os"
+      ],
+      [
+        "subaquáti",
+        "ca"
+      ],
+      [
+        "subaquáti",
+        "cas"
+      ],
+      [
+        "subaquáti",
+        "cos"
+      ],
+      [
+        "moviment",
+        "os"
+      ],
+      [
+        "luz",
+        "es"
+      ],
+      [
+        "masmor",
+        "ra"
+      ],
+      [
+        "constru",
+        "ção"
+      ],
+      [
+        "constru",
+        "tor"
+      ],
+      [
+        "constru",
+        "ir"
+      ],
+      [
+        "mine",
+        "rais"
+      ],
+      [
+        "mine",
+        "ração"
+      ],
+      [
+        "nego",
+        "ciando"
+      ],
+      [
+        "pesquis",
+        "a"
+      ],
+      [
+        "terr",
+        "or"
+      ],
+      [
+        "Com",
+        "pre"
+      ],
+      [
+        "Com",
+        "pita"
+      ],
+      [
+        "Com",
+        "ande"
+      ],
+      [
+        "element",
+        "ais"
+      ],
+      [
+        "gui",
+        "e"
+      ],
+      [
+        "gui",
+        "ças"
+      ],
+      [
+        "cenári",
+        "o"
+      ],
+      [
+        "perigos",
+        "a"
+      ],
+      [
+        "perigos",
+        "o"
+      ],
+      [
+        "perigos",
+        "as"
+      ],
+      [
+        "ambi",
+        "ente"
+      ],
+      [
+        "aére",
+        "as"
+      ],
+      [
+        "aprimo",
+        "rada"
+      ],
+      [
+        "lendári",
+        "os"
+      ],
+      [
+        "rogueli",
+        "ke"
+      ],
+      [
+        "turis",
+        "tas"
+      ],
+      [
+        "Gu",
+        "erra"
+      ],
+      [
+        "Gu",
+        "ardi"
+      ],
+      [
+        "Re",
+        "al"
+      ],
+      [
+        "Re",
+        "ceba"
+      ],
+      [
+        "Su",
+        "as"
+      ],
+      [
+        "Su",
+        "ba"
+      ],
+      [
+        "ad",
+        "rão"
+      ],
+      [
+        "aj",
+        "ude"
+      ],
+      [
+        "are",
+        "na"
+      ],
+      [
+        "are",
+        "nas"
+      ],
+      [
+        "bu",
+        "lo"
+      ],
+      [
+        "ban",
+        "didos"
+      ],
+      [
+        "bli",
+        "co"
+      ],
+      [
+        "bro",
+        "cas"
+      ],
+      [
+        "cr",
+        "onogra"
+      ],
+      [
+        "cum",
+        "prindo"
+      ],
+      [
+        "fal",
+        "has"
+      ],
+      [
+        "flu",
+        "idos"
+      ],
+      [
+        "flu",
+        "tua"
+      ],
+      [
+        "gra",
+        "vidade"
+      ],
+      [
+        "gra",
+        "nde"
+      ],
+      [
+        "hum",
+        "ana"
+      ],
+      [
+        "hum",
+        "ano"
+      ],
+      [
+        "je",
+        "tivo"
+      ],
+      [
+        "lin",
+        "ha"
+      ],
+      [
+        "mú",
+        "mias"
+      ],
+      [
+        "mú",
+        "ltiplas"
+      ],
+      [
+        "men",
+        "or"
+      ],
+      [
+        "mal",
+        "dição"
+      ],
+      [
+        "né",
+        "on"
+      ],
+      [
+        "né",
+        "tico"
+      ],
+      [
+        "ndi",
+        "al"
+      ],
+      [
+        "nch",
+        "egante"
+      ],
+      [
+        "ob",
+        "stá"
+      ],
+      [
+        "ob",
+        "jetivo"
+      ],
+      [
+        "pu",
+        "le"
+      ],
+      [
+        "pre",
+        "guiças"
+      ],
+      [
+        "pra",
+        "zo"
+      ],
+      [
+        "pist",
+        "as"
+      ],
+      [
+        "pist",
+        "oleiro"
+      ],
+      [
+        "pira",
+        "ta"
+      ],
+      [
+        "pira",
+        "tas"
+      ],
+      [
+        "pass",
+        "agens"
+      ],
+      [
+        "pass",
+        "ageiros"
+      ],
+      [
+        "sa",
+        "úde"
+      ],
+      [
+        "sal",
+        "tar"
+      ],
+      [
+        "sal",
+        "var"
+      ],
+      [
+        "up",
+        "s"
+      ],
+      [
+        "ven",
+        "de"
+      ],
+      [
+        "ven",
+        "der"
+      ],
+      [
+        "reg",
+        "ue"
+      ],
+      [
+        "cam",
+        "po"
+      ],
+      [
+        "cam",
+        "panhas"
+      ],
+      [
+        "caval",
+        "eiro"
+      ],
+      [
+        "caval",
+        "eiros"
+      ],
+      [
+        "encanta",
+        "dor"
+      ],
+      [
+        "encanta",
+        "dos"
+      ],
+      [
+        "ogra",
+        "vidade"
+      ],
+      [
+        "artes",
+        "anat"
+      ],
+      [
+        "ing",
+        "redi"
+      ],
+      [
+        "organi",
+        "ze"
+      ],
+      [
+        "organi",
+        "zando"
+      ],
+      [
+        "desvi",
+        "e"
+      ],
+      [
+        "desvi",
+        "ando"
+      ],
+      [
+        "selva",
+        "gem"
+      ],
+      [
+        "expa",
+        "nda"
+      ],
+      [
+        "expa",
+        "nsão"
+      ],
+      [
+        "exti",
+        "ntos"
+      ],
+      [
+        "exti",
+        "nção"
+      ],
+      [
+        "antig",
+        "as"
+      ],
+      [
+        "antig",
+        "uidades"
+      ],
+      [
+        "nsfor",
+        "me"
+      ],
+      [
+        "mit",
+        "ologia"
+      ],
+      [
+        "mit",
+        "ológi"
+      ],
+      [
+        "super",
+        "fície"
+      ],
+      [
+        "supera",
+        "r"
+      ],
+      [
+        "supera",
+        "ndo"
+      ],
+      [
+        "consta",
+        "nte"
+      ],
+      [
+        "consta",
+        "ntes"
+      ],
+      [
+        "cuida",
+        "ndo"
+      ],
+      [
+        "fazen",
+        "das"
+      ],
+      [
+        "colon",
+        "os"
+      ],
+      [
+        "colon",
+        "iais"
+      ],
+      [
+        "futuris",
+        "ta"
+      ],
+      [
+        "futuris",
+        "tas"
+      ],
+      [
+        "profu",
+        "nda"
+      ],
+      [
+        "profu",
+        "ndos"
+      ],
+      [
+        "evita",
+        "ndo"
+      ],
+      [
+        "drag",
+        "ão"
+      ],
+      [
+        "drag",
+        "ões"
+      ],
+      [
+        "assent",
+        "amento"
+      ],
+      [
+        "assent",
+        "amentos"
+      ],
+      [
+        "sobreviv",
+        "entes"
+      ],
+      [
+        "sobreviv",
+        "ência"
+      ],
+      [
+        "posicion",
+        "e"
+      ],
+      [
+        "posicion",
+        "ar"
+      ],
+      [
+        "mercenári",
+        "o"
+      ],
+      [
+        "mercenári",
+        "os"
+      ],
+      [
+        "própri",
+        "as"
+      ],
+      [
+        "própri",
+        "os"
+      ],
+      [
+        "ambient",
+        "ais"
+      ],
+      [
+        "ambient",
+        "ado"
+      ],
+      [
+        "amea",
+        "ça"
+      ],
+      [
+        "amea",
+        "ças"
+      ],
+      [
+        "hidro",
+        "pônicas"
+      ],
+      [
+        "hidro",
+        "mel"
+      ],
+      [
+        "intera",
+        "ja"
+      ],
+      [
+        "intera",
+        "gir"
+      ],
+      [
+        "jov",
+        "em"
+      ],
+      [
+        "jov",
+        "ens"
+      ],
+      [
+        "sistem",
+        "a"
+      ],
+      [
+        "sistem",
+        "as"
+      ],
+      [
+        "subterrâne",
+        "o"
+      ],
+      [
+        "subterrâne",
+        "as"
+      ],
+      [
+        "1v",
+        "1"
+      ],
+      [
+        "Ca",
+        "ce"
+      ],
+      [
+        "Cor",
+        "ridas"
+      ],
+      [
+        "Custo",
+        "mize"
+      ],
+      [
+        "Des",
+        "ça"
+      ],
+      [
+        "Dist",
+        "ribua"
+      ],
+      [
+        "Def",
+        "enda"
+      ],
+      [
+        "En",
+        "frente"
+      ],
+      [
+        "Es",
+        "tabe"
+      ],
+      [
+        "Ent",
+        "regue"
+      ],
+      [
+        "Fre",
+        "quente"
+      ],
+      [
+        "Ga",
+        "ranta"
+      ],
+      [
+        "Jon",
+        "es"
+      ],
+      [
+        "Jap",
+        "ão"
+      ],
+      [
+        "Ma",
+        "rinha"
+      ],
+      [
+        "Mu",
+        "ndial"
+      ],
+      [
+        "Mant",
+        "enha"
+      ],
+      [
+        "Mani",
+        "pule"
+      ],
+      [
+        "Or",
+        "ganize"
+      ],
+      [
+        "Oes",
+        "te"
+      ],
+      [
+        "Pu",
+        "le"
+      ],
+      [
+        "Pas",
+        "se"
+      ],
+      [
+        "Pes",
+        "que"
+      ],
+      [
+        "Pri",
+        "meira"
+      ],
+      [
+        "Per",
+        "fure"
+      ],
+      [
+        "Qua",
+        "tro"
+      ],
+      [
+        "Res",
+        "taure"
+      ],
+      [
+        "Rex",
+        "es"
+      ],
+      [
+        "Sa",
+        "queie"
+      ],
+      [
+        "So",
+        "mbra"
+      ],
+      [
+        "Sir",
+        "va"
+      ],
+      [
+        "Tra",
+        "nsforme"
+      ],
+      [
+        "Tor",
+        "re"
+      ],
+      [
+        "Trein",
+        "e"
+      ],
+      [
+        "Via",
+        "je"
+      ],
+      [
+        "Vel",
+        "ho"
+      ],
+      [
+        "aco",
+        "nchegante"
+      ],
+      [
+        "apa",
+        "rições"
+      ],
+      [
+        "adi",
+        "cionando"
+      ],
+      [
+        "apo",
+        "calíp"
+      ],
+      [
+        "ava",
+        "tar"
+      ],
+      [
+        "acade",
+        "mia"
+      ],
+      [
+        "auto",
+        "matizada"
+      ],
+      [
+        "bon",
+        "des"
+      ],
+      [
+        "bor",
+        "do"
+      ],
+      [
+        "bru",
+        "xaria"
+      ],
+      [
+        "cer",
+        "co"
+      ],
+      [
+        "cres",
+        "cem"
+      ],
+      [
+        "cha",
+        "ve"
+      ],
+      [
+        "custo",
+        "mização"
+      ],
+      [
+        "dã",
+        "os"
+      ],
+      [
+        "dim",
+        "inuto"
+      ],
+      [
+        "dist",
+        "ópico"
+      ],
+      [
+        "dista",
+        "nte"
+      ],
+      [
+        "eco",
+        "nomia"
+      ],
+      [
+        "ecos",
+        "sistemas"
+      ],
+      [
+        "efi",
+        "ciente"
+      ],
+      [
+        "edu",
+        "cando"
+      ],
+      [
+        "fen",
+        "ômen"
+      ],
+      [
+        "fog",
+        "o"
+      ],
+      [
+        "fer",
+        "roviári"
+      ],
+      [
+        "far",
+        "ol"
+      ],
+      [
+        "fav",
+        "or"
+      ],
+      [
+        "gl",
+        "ória"
+      ],
+      [
+        "gri",
+        "fos"
+      ],
+      [
+        "gan",
+        "hando"
+      ],
+      [
+        "gla",
+        "diadores"
+      ],
+      [
+        "gol",
+        "ens"
+      ],
+      [
+        "gru",
+        "po"
+      ],
+      [
+        "hos",
+        "til"
+      ],
+      [
+        "hor",
+        "das"
+      ],
+      [
+        "il",
+        "umina"
+      ],
+      [
+        "it",
+        "ens"
+      ],
+      [
+        "log",
+        "ística"
+      ],
+      [
+        "lan",
+        "çam"
+      ],
+      [
+        "mis",
+        "sões"
+      ],
+      [
+        "man",
+        "são"
+      ],
+      [
+        "mani",
+        "pulação"
+      ],
+      [
+        "op",
+        "onentes"
+      ],
+      [
+        "ox",
+        "igêni"
+      ],
+      [
+        "oti",
+        "mize"
+      ],
+      [
+        "ote",
+        "ca"
+      ],
+      [
+        "opres",
+        "sor"
+      ],
+      [
+        "ofere",
+        "cendo"
+      ],
+      [
+        "pú",
+        "blico"
+      ],
+      [
+        "pia",
+        "das"
+      ],
+      [
+        "psi",
+        "cológico"
+      ],
+      [
+        "pix",
+        "el"
+      ],
+      [
+        "rum",
+        "o"
+      ],
+      [
+        "ron",
+        "in"
+      ],
+      [
+        "rni",
+        "os"
+      ],
+      [
+        "sy",
+        "nthw"
+      ],
+      [
+        "son",
+        "ora"
+      ],
+      [
+        "sol",
+        "o"
+      ],
+      [
+        "sus",
+        "peitos"
+      ],
+      [
+        "sat",
+        "isfazen"
+      ],
+      [
+        "sab",
+        "re"
+      ],
+      [
+        "tent",
+        "a"
+      ],
+      [
+        "vê",
+        "m"
+      ],
+      [
+        "ví",
+        "rus"
+      ],
+      [
+        "xad",
+        "rez"
+      ],
+      [
+        "zum",
+        "bis"
+      ],
+      [
+        "zer",
+        "o"
+      ],
+      [
+        "épo",
+        "cas"
+      ],
+      [
+        "últi",
+        "mo"
+      ],
+      [
+        "dete",
+        "tives"
+      ],
+      [
+        "demon",
+        "íacos"
+      ],
+      [
+        "asso",
+        "lado"
+      ],
+      [
+        "aster",
+        "oides"
+      ],
+      [
+        "asfal",
+        "to"
+      ],
+      [
+        "assombra",
+        "dos"
+      ],
+      [
+        "repa",
+        "re"
+      ],
+      [
+        "repe",
+        "lir"
+      ],
+      [
+        "repl",
+        "etos"
+      ],
+      [
+        "radi",
+        "ação"
+      ],
+      [
+        "ntri",
+        "cos"
+      ],
+      [
+        "colo",
+        "ridas"
+      ],
+      [
+        "cone",
+        "cta"
+      ],
+      [
+        "condi",
+        "ções"
+      ],
+      [
+        "coopera",
+        "tivo"
+      ],
+      [
+        "esqu",
+        "adrão"
+      ],
+      [
+        "espe",
+        "ciais"
+      ],
+      [
+        "escas",
+        "sez"
+      ],
+      [
+        "escu",
+        "ridão"
+      ],
+      [
+        "esté",
+        "tica"
+      ],
+      [
+        "esmag",
+        "ado"
+      ],
+      [
+        "está",
+        "bulo"
+      ],
+      [
+        "rique",
+        "za"
+      ],
+      [
+        "domin",
+        "ar"
+      ],
+      [
+        "docum",
+        "ente"
+      ],
+      [
+        "domesti",
+        "cação"
+      ],
+      [
+        "cida",
+        "dãos"
+      ],
+      [
+        "ciber",
+        "nético"
+      ],
+      [
+        "circu",
+        "itos"
+      ],
+      [
+        "taver",
+        "na"
+      ],
+      [
+        "cati",
+        "vante"
+      ],
+      [
+        "cama",
+        "da"
+      ],
+      [
+        "camin",
+        "hadas"
+      ],
+      [
+        "carav",
+        "ana"
+      ],
+      [
+        "captura",
+        "m"
+      ],
+      [
+        "ener",
+        "gia"
+      ],
+      [
+        "encom",
+        "enda"
+      ],
+      [
+        "encontra",
+        "r"
+      ],
+      [
+        "enfre",
+        "ntando"
+      ],
+      [
+        "engen",
+        "haria"
+      ],
+      [
+        "entreg",
+        "ar"
+      ],
+      [
+        "ancestra",
+        "l"
+      ],
+      [
+        "erup",
+        "ções"
+      ],
+      [
+        "quar",
+        "tos"
+      ],
+      [
+        "quânt",
+        "ico"
+      ],
+      [
+        "compe",
+        "titivo"
+      ],
+      [
+        "arras",
+        "tão"
+      ],
+      [
+        "onlin",
+        "e"
+      ],
+      [
+        "aliment",
+        "ados"
+      ],
+      [
+        "algum",
+        "as"
+      ],
+      [
+        "alcanç",
+        "ar"
+      ],
+      [
+        "inim",
+        "igas"
+      ],
+      [
+        "infi",
+        "ltra"
+      ],
+      [
+        "incurs",
+        "ões"
+      ],
+      [
+        "investi",
+        "gação"
+      ],
+      [
+        "labi",
+        "rintos"
+      ],
+      [
+        "ladr",
+        "ões"
+      ],
+      [
+        "resist",
+        "ência"
+      ],
+      [
+        "impéri",
+        "o"
+      ],
+      [
+        "imersi",
+        "vo"
+      ],
+      [
+        "imortali",
+        "dade"
+      ],
+      [
+        "desli",
+        "ze"
+      ],
+      [
+        "destru",
+        "tíveis"
+      ],
+      [
+        "destro",
+        "ços"
+      ],
+      [
+        "desenvol",
+        "va"
+      ],
+      [
+        "paranor",
+        "mais"
+      ],
+      [
+        "tráfe",
+        "go"
+      ],
+      [
+        "secu",
+        "lar"
+      ],
+      [
+        "segui",
+        "dores"
+      ],
+      [
+        "viaj",
+        "ando"
+      ],
+      [
+        "digi",
+        "tais"
+      ],
+      [
+        "dirig",
+        "íveis"
+      ],
+      [
+        "divin",
+        "dade"
+      ],
+      [
+        "excê",
+        "ntricos"
+      ],
+      [
+        "exig",
+        "entes"
+      ],
+      [
+        "exposi",
+        "ções"
+      ],
+      [
+        "mamu",
+        "tes"
+      ],
+      [
+        "pous",
+        "ada"
+      ],
+      [
+        "atrain",
+        "do"
+      ],
+      [
+        "mega",
+        "corporações"
+      ],
+      [
+        "voado",
+        "ra"
+      ],
+      [
+        "urban",
+        "as"
+      ],
+      [
+        "sociali",
+        "ze"
+      ],
+      [
+        "micr",
+        "ogravidade"
+      ],
+      [
+        "milêni",
+        "os"
+      ],
+      [
+        "supri",
+        "mentos"
+      ],
+      [
+        "princes",
+        "as"
+      ],
+      [
+        "tempes",
+        "tades"
+      ],
+      [
+        "transfor",
+        "mando"
+      ],
+      [
+        "traiço",
+        "eiras"
+      ],
+      [
+        "transpor",
+        "te"
+      ],
+      [
+        "constró",
+        "i"
+      ],
+      [
+        "bebi",
+        "das"
+      ],
+      [
+        "bibli",
+        "oteca"
+      ],
+      [
+        "culti",
+        "var"
+      ],
+      [
+        "Conquis",
+        "te"
+      ],
+      [
+        "celesti",
+        "ais"
+      ],
+      [
+        "fortifica",
+        "dos"
+      ],
+      [
+        "famí",
+        "lia"
+      ],
+      [
+        "nebu",
+        "losas"
+      ],
+      [
+        "colôni",
+        "a"
+      ],
+      [
+        "colhei",
+        "tas"
+      ],
+      [
+        "abandona",
+        "da"
+      ],
+      [
+        "cheg",
+        "ar"
+      ],
+      [
+        "chef",
+        "es"
+      ],
+      [
+        "chuvos",
+        "a"
+      ],
+      [
+        "máquin",
+        "as"
+      ],
+      [
+        "trinch",
+        "eira"
+      ],
+      [
+        "tribula",
+        "ções"
+      ],
+      [
+        "eletr",
+        "ônicas"
+      ],
+      [
+        "evidênci",
+        "as"
+      ],
+      [
+        "intens",
+        "as"
+      ],
+      [
+        "intereste",
+        "lares"
+      ],
+      [
+        "derru",
+        "bar"
+      ],
+      [
+        "fantasmag",
+        "óricas"
+      ],
+      [
+        "drakk",
+        "ares"
+      ],
+      [
+        "feuda",
+        "l"
+      ],
+      [
+        "partici",
+        "pando"
+      ],
+      [
+        "particula",
+        "res"
+      ],
+      [
+        "sombri",
+        "o"
+      ],
+      [
+        "climáti",
+        "cas"
+      ],
+      [
+        "anomali",
+        "as"
+      ],
+      [
+        "infraes",
+        "trutura"
+      ],
+      [
+        "sobrenat",
+        "ural"
+      ],
+      [
+        "interrog",
+        "a"
+      ],
+      [
+        "dispu",
+        "tas"
+      ],
+      [
+        "dinossa",
+        "uros"
+      ],
+      [
+        "egíp",
+        "cias"
+      ],
+      [
+        "unicó",
+        "rnios"
+      ],
+      [
+        "espíri",
+        "to"
+      ],
+      [
+        "Guardi",
+        "ão"
+      ],
+      [
+        "cronogra",
+        "ma"
+      ],
+      [
+        "flutua",
+        "ntes"
+      ],
+      [
+        "obstá",
+        "culos"
+      ],
+      [
+        "artesanat",
+        "o"
+      ],
+      [
+        "ingredi",
+        "entes"
+      ],
+      [
+        "mitológi",
+        "cos"
+      ],
+      [
+        "Estabe",
+        "leça"
+      ],
+      [
+        "apocalíp",
+        "tico"
+      ],
+      [
+        "fenômen",
+        "os"
+      ],
+      [
+        "ferroviári",
+        "as"
+      ],
+      [
+        "ilumina",
+        "das"
+      ],
+      [
+        "oxigêni",
+        "o"
+      ],
+      [
+        "opressor",
+        "as"
+      ],
+      [
+        "synthw",
+        "ave"
+      ],
+      [
+        "satisfazen",
+        "do"
+      ]
+    ]
+  }
+}
